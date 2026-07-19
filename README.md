@@ -7,6 +7,9 @@
 - `desktop/windows/*.exe` — NSIS 安装包
 - `desktop/windows/*.sig` — 签名文件
 
+## 反馈
+- Issues: https://github.com/colazero/cuetime-update/issues
+
 ## 发版流程
 1. 主项目 `cargo tauri build`
 2. 把 `.exe` + `.sig` 拷到 `desktop/windows/`
