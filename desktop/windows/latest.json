@@ -1,10 +1,10 @@
 {
-  "version": "1.0.2",
-  "notes": "Fix: no console window, light & printer bridge fix, new updater signing key",
+  "version": "1.0.3",
+  "notes": "Light: alert when config missing or command fails (no more silent failure)",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmZjTm5rdjRmNGx1ZWNsNTZEaFhPSG11clZYTFgzSXhydlY0THp3c094T0FXYVkxVkY5UGVTN3BOc1I4Z1lQZk9mNFR3ZjQ2dDFyT0xhQWxick1LZ2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTc2NjA5CWZpbGU6Q3VlVGltZV8xLjAuMl94NjQtc2V0dXAuZXhlCkIzUHdaS2Qvd2xNZlVtdFJkZ08rdmVzMk8rMGU5VHV2ZUwrVXRaQWhzM1FVb0dFTUI3UkkyNkRqNUpKbzlrWDhGdGhJV0VvdDh2MkRIM0FOQ1JpN0JRPT0K",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.2/CueTime_1.0.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmNrMzc3Q3V6YmtOb1N6d0F0YkFpYmZUSFk4NTc0aEk4QVFoRTlWb2FhWGY4U1hUL3FrVzJRenZlemNCcWVaWlZ0bFRvVFRLdGY3STJ3cElhK0FZL3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTc3MDA4CWZpbGU6Q3VlVGltZV8xLjAuM194NjQtc2V0dXAuZXhlClhsOG16b0VJNEpWMkRvMlAvVUllYlpTa3VHN2tEOVAxMXJ1YTM5Unplb2RzMmdCNElsUGp0OGRxWkVHalRZYWdkdHVkblEvNU1PWk42aGo3VUI1K0JRPT0K",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.3/CueTime_1.0.3_x64-setup.exe"
     }
   }
 }
