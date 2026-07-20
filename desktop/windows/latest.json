@@ -1,10 +1,10 @@
 {
-  "version": "1.0.5",
-  "notes": "Shift report shows cash breakdown. Temp light. Light lifecycle. Print fix. Member import.",
+  "version": "1.0.6",
+  "notes": "Sync detail modal, temp light, light lifecycle, Stop & Continue, member import, print fix.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmJBVlZVSGU4a0x5NUNIc1F5aEtRekFLL0dtMklVZUtJRFp5cHJUc3VUQkRCVEp4OW1BTWEyWjNjSXJ2MU12Y1docXBCNVdrVGJpQWJUWlcyUUlXTUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTg0NjYyCWZpbGU6Q3VlVGltZV8xLjAuNV94NjQtc2V0dXAuZXhlClkvYW5RTWtsMWpyVXBEUldKQUJFK1lTUVg3engzd0QvVjNGekwvY0RJazNzYkVVTjBnYnR4aEVCMFRTdmFVQS91TUFwK1hJY2RPWUd3NDZpc28vbkJnPT0K",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.5/CueTime_1.0.5_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmNaUEYrOXkrTWpSRXVWYTlyWS90ZGJLaGV0aVBjc214a2tFcDI1aEh6KzZycHNPWW1PWUdtVkpGT1RFNHhVNm16ZVRTbnBZR0RTZXVkR09CWjliY2dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTg0OTc2CWZpbGU6Q3VlVGltZV8xLjAuNl94NjQtc2V0dXAuZXhlCll0R29QdGF6cGF5em9qK0FTeTBnWXRMR0tmU25xSjZURGVhTFJUcmJPSi94MWcvNmNpb0tLZVMraWo4aEdhaDdxYUJBNlFsWUIvVGkxWVFBZXhJQ0RRPT0K",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.6/CueTime_1.0.6_x64-setup.exe"
     }
   }
 }
