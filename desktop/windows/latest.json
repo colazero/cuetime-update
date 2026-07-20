@@ -1,9 +1,9 @@
 {
   "version": "1.0.5",
-  "notes": "Fix blank browser print. Pause/Resume/Swap light. Stop & Continue modal.",
+  "notes": "Print: hardware or browser fallback. Pause/Swap light. Stop & Continue modal.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmVDbW5LNmIzc1M1NkVDWkZOUytMVnQ3RWd2Y2V1VGhOWkMza3htYzVpQUM2a1VvaVc2U2cxQmlWNFR0WkxGQkxLenRuV1BmMHVRbkxHRUNnUmNFMmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTgyNTkwCWZpbGU6Q3VlVGltZV8xLjAuNV94NjQtc2V0dXAuZXhlCmx3bHZtbTFTQTJDSWRPRjBnTVlxekhzejBpQmxiOWpOeVpTK1hLcWNaMGVFRk42WDVENFlFYVcybG0wVG5TcVZyWGx1MnF3TXBFZjd6WTVHSCtGNkNRPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlpMYm4rTWk0TDRQYXA1YmhSWk41UkU0MDhGOW1yMTBDVlVIVFY4SkpZdXV0aExvMzJQS0JTakhxOTQyU3F6YUluTHZGTVlyUUxZTzgyaUFIT2svT1FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTgzMDc5CWZpbGU6Q3VlVGltZV8xLjAuNV94NjQtc2V0dXAuZXhlCnM4cUJsRTVIdXI1cVVRTlhNamJEZm83enJwS2w5L1ZHcDJ6RStRcXZEc3pnUFhaRWdudnNMZW5OSDFsV25ZR05jd3F4Y1lSekFlTWdHUHRxZnRNdUR3PT0K",
       "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.5/CueTime_1.0.5_x64-setup.exe"
     }
   }
