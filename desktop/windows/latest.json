@@ -1,9 +1,9 @@
 {
   "version": "1.0.6",
-  "notes": "Fix: Sync modal opens. Shift cash detail. Temp light. Light lifecycle. Stop&Continue. Member import.",
+  "notes": "Fix: member level normalized. Sync modal. Temp light. Light lifecycle. Stop&Continue.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlQveXBrL28ydE5tRzBwd29TV3VYc2g5SkxMKzNQQ21PU2p2UXUwakFsYWtROVRRbmNGQndiYnpmRG9zakIyTDFrbGxvZ0V4QkZGN2t4elVhMXNCeUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTg1NjMwCWZpbGU6Q3VlVGltZV8xLjAuNl94NjQtc2V0dXAuZXhlCkM0MVE3UGI2Vk0vOEE2ZjdXbDVEYWJERG5uVnVlajk0MVc0NjlvaW9LOVBhMUVRekRXS2xJOWh3djN5WkdieC9MRFhqNzFXRXBEejFEMWU2N01UY0R3PT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmVFZVhUNmtQanZJanN3Vk41NEFwOWlialBoTEJTMzRQZDZQcUNGZyt2M2s3SGdXN1R6N2NMSk9WMGdkdHdEVkFQaFhrWXAyVzduZ1VNR2ptaEpZc1FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTg2MDkwCWZpbGU6Q3VlVGltZV8xLjAuNl94NjQtc2V0dXAuZXhlCnYranl5NXlPOURzVllLWHJwV0dzSFZreVRxTzJIbzJYWE9HM3R4U3dTOFh0TG5Sdm1sUUhuNHZJYVorVHYvMzBZbzJSN3RPQWx0L1VjWGR0WlRTV0JBPT0K",
       "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.6/CueTime_1.0.6_x64-setup.exe"
     }
   }
