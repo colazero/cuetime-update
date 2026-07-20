@@ -1,11 +1,11 @@
 {
-    "version": "1.0.0",
-    "notes": "CueTime v1.0.0 — 支付模块、打印机静默打印、灯控、会员功能完整版",
-    "pub_date": "2026-07-19T19:00:00Z",
+    "version": "1.0.1",
+    "notes": "Login Enter key support, light grid UI, branch-scoped light config",
+    "pub_date": "2026-07-19T19:05:00Z",
     "platforms": {
         "windows-x86_64": {
-            "signature": "https://github.com/colazero/cuetime-update/releases/download/v1.0.0/CueTime_1.0.0_x64-setup.exe.sig",
-            "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.0/CueTime_1.0.0_x64-setup.exe"
+            "signature": "https://github.com/colazero/cuetime-update/releases/download/v1.0.1/CueTime_1.0.1_x64-setup.exe.sig",
+            "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.1/CueTime_1.0.1_x64-setup.exe"
         }
     }
 }
