@@ -1,9 +1,9 @@
 {
   "version": "1.0.6",
-  "notes": "Fix: member level normalized. Sync modal. Temp light. Light lifecycle. Stop&Continue.",
+  "notes": "Push Local to Cloud now includes members. Level fix. Sync modal. Temp light. Stop&Continue.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmVFZVhUNmtQanZJanN3Vk41NEFwOWlialBoTEJTMzRQZDZQcUNGZyt2M2s3SGdXN1R6N2NMSk9WMGdkdHdEVkFQaFhrWXAyVzduZ1VNR2ptaEpZc1FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTg2MDkwCWZpbGU6Q3VlVGltZV8xLjAuNl94NjQtc2V0dXAuZXhlCnYranl5NXlPOURzVllLWHJwV0dzSFZreVRxTzJIbzJYWE9HM3R4U3dTOFh0TG5Sdm1sUUhuNHZJYVorVHYvMzBZbzJSN3RPQWx0L1VjWGR0WlRTV0JBPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlhreE9IN0VmU2c5U0orSmRlNXJ5RTQ0b01JWE1ObHA1U3I3aVM3dkRsS01jbmNNMVdUNUx4YS9XTzBvQTBHN0pzRXRlaDE0Y2xkMUxVRTkzbXBKWEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTg2NDQ2CWZpbGU6Q3VlVGltZV8xLjAuNl94NjQtc2V0dXAuZXhlCkFtUit1M3Vjemk5RUtSNUkzVVdKdkpseHA0eGdHMWJEeCtrUW51cXVBMlVWZndGVlFNRXMwK3hxOW94Q0RsSnNta3I3dGlMbnFnV2xNajI2d0dEZkFBPT0K",
       "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.6/CueTime_1.0.6_x64-setup.exe"
     }
   }
