@@ -1,9 +1,9 @@
 {
   "version": "1.0.5",
-  "notes": "Stop & Continue modal with payment methods. Pause/Resume/Swap light. Member import fix.",
+  "notes": "Fix blank browser print. Pause/Resume/Swap light. Stop & Continue modal.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlVia1pUbVdrc0xXN01zazN3aTlpeWJXcTc1djlJUG1kQVJ6bjVzUXhMc2cyeUQwYkl2K25LWTZOZHQ5Q2xwWTkxcWdtV1ZVcisxMEhnR0F4MzFRM0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTgyNDM2CWZpbGU6Q3VlVGltZV8xLjAuNV94NjQtc2V0dXAuZXhlCmtybUR2enRmTzlFYVNmb2tXVzNVYUlQNHBaK1RmSFhsOUVKVzdRa0taRm1XYzg2MTBIU0hNTkNKSmp1TkhCWHprRGpTd0dXR0xlYmRhTlU2TlppMURnPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmVDbW5LNmIzc1M1NkVDWkZOUytMVnQ3RWd2Y2V1VGhOWkMza3htYzVpQUM2a1VvaVc2U2cxQmlWNFR0WkxGQkxLenRuV1BmMHVRbkxHRUNnUmNFMmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTgyNTkwCWZpbGU6Q3VlVGltZV8xLjAuNV94NjQtc2V0dXAuZXhlCmx3bHZtbTFTQTJDSWRPRjBnTVlxekhzejBpQmxiOWpOeVpTK1hLcWNaMGVFRk42WDVENFlFYVcybG0wVG5TcVZyWGx1MnF3TXBFZjd6WTVHSCtGNkNRPT0K",
       "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.5/CueTime_1.0.5_x64-setup.exe"
     }
   }
