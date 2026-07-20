@@ -1,9 +1,9 @@
 {
   "version": "1.0.4",
-  "notes": "Fix CSV import sync: members.upsert kind. Birthday, auto +60 phone, light/printer bridge.",
+  "notes": "Fix member import: use user session instead of anon key for cloud sync. Clear failed outbox first.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmVEZFV0L3hpbGdUMHV2Z0tIUVBGT2pUeDZhY2QxUTlxTHcxdWFWTDZ2M2h6b2Q0d1BmQ1VCK0Rta0JSbWdxVzVkeHd0bEJCdGVMMU1aUWRPai9DNHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTgxMDk0CWZpbGU6Q3VlVGltZV8xLjAuNF94NjQtc2V0dXAuZXhlCi9zWWhUOHZkWENucU5kR3Q0Z2MzSi8rRDR5ZkVwVGNWMG5iaFJvMVNlWG5xdkNhOUsreStMWnloMlhuYWpCczVkU09YUUJWbktWOFdaSmNYWmZ5c0J3PT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlhlVUE5azIrVi8va2E0WXIxdTZEY3FsZ0tTbkozTWh1eXhjTS9nZ0h0aDhZakpVOHlQb1ZiWTFWT0R6cVhYVDBCZ0VtRDgzTUUwT1kzOG9ta1dpL2dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTgxNjIzCWZpbGU6Q3VlVGltZV8xLjAuNF94NjQtc2V0dXAuZXhlCjM3bzg5TnB1enNoalUvRnhKeXM0MVBZNEI4V1E0TEpMZUNpbzNKTm9wTjRwTzRxTWZOajkweDhZQ0k1MDVaNi9tUW05UEgvTThQOEZxM1dqQUViQ0RnPT0K",
       "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.4/CueTime_1.0.4_x64-setup.exe"
     }
   }
