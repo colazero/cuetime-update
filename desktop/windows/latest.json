@@ -1,9 +1,9 @@
 {
   "version": "1.0.5",
-  "notes": "Pause=light off, Resume=light on. Stop & Continue button. Member import fix.",
+  "notes": "Pause/Resume light, Swap light follows, Stop & Continue, Member import fix.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlJVWU1kYjdXTVVjaDBIQXpsUkhqOFgvUENxV2E2TnBXdnNrV1NscXptdEhRN1VCQTIrY2VlbjYzbUVNVnNwRk45bnhmRG45MzQxaHNpQ0NsZnRaa0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTgxOTY0CWZpbGU6Q3VlVGltZV8xLjAuNV94NjQtc2V0dXAuZXhlClhmd09FclZTUWFGU3dPckQ3WEczQVdyTEo2Y2JLVUhuUjBLK2J4VXhHaFhrSDBQVVR5Rmx1cGliSm1yajRtTWFIMitWeTdBUmxaMCtPK3pJWXAyWUJnPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlk1ZXc0NmZJOHFWZGNlVEZFUjlteGVTRytzV2dkQmNZZHRieFF1bjRFRDlMcERGYjgxbVNJT25aWm5OaHJUL3Ayb1RCS0tsVEs4R2lSdTFLY21waXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTgyMjI5CWZpbGU6Q3VlVGltZV8xLjAuNV94NjQtc2V0dXAuZXhlCkZzcGVwWFAvRkZLd3lBU0llWExQU3lod0V3UUZlK05hMk0wcTc0L0lQRk12VlNBV1FTUFE3NHpCVW5oenhPTWwxWHljQUN6Qk5UM1ZKL0VJR3pZK0RBPT0K",
       "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.5/CueTime_1.0.5_x64-setup.exe"
     }
   }
