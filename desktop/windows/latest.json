@@ -1,9 +1,9 @@
 {
   "version": "1.0.4",
-  "notes": "Remove light success alert popup, keep failure warnings",
+  "notes": "Member CSV import, birthday, auto +60 phone, light/printer fix, no console window",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmFrZEF5aGVjVHFHMnNyRE9Tc2k5UFd2eEtaclRpTkFYNkxCYS9HRmt5d2N5c09CVUFNbXR3bG1UWGQ5VDFZR0RMM3JCcUJEZnNtUzdqMnArZEwwMEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTc3NzYzCWZpbGU6Q3VlVGltZV8xLjAuNF94NjQtc2V0dXAuZXhlCktxb0NYYmU3cU1CSTY2a0plWEVDaHNCT2g4QmRrUjl4UnVMYlRQbW83NFEwaURTVzJRREpYZVE3ZG0yVVJIT2NXVGRvUVVoZVRXbHpndEk4UkhhZEJRPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlVqejJkRnJBYVN5ZTYwbzkwOGliS0FHbmxuK0VIckpmRVV1a21Gdml0b2VyUjNIcHltbXVuMnQ3NXp3WDhMQjg5S1BENmw4Wk1sWGl1eTZ1UFpaaFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTc5NDk3CWZpbGU6Q3VlVGltZV8xLjAuNF94NjQtc2V0dXAuZXhlCm81NjlSZUlnTnpJOXZxbFhSWHQ1UE9lVlZ6Ly9aOFM2cG5sQ2NUSVNmSFNvWWtPWnhpTHRia3Z0YXIrMzcrM0RrM3dRQ0dnQlR6TFBmU0NLZ2RGMUN3PT0K",
       "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.4/CueTime_1.0.4_x64-setup.exe"
     }
   }
