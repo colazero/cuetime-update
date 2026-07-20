@@ -1,9 +1,9 @@
 {
   "version": "1.0.5",
-  "notes": "Review fixes: printer config typo, modal type. Temp light. All light lifecycle reworked.",
+  "notes": "Shift report shows cash breakdown. Temp light. Light lifecycle. Print fix. Member import.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmQ2QkpYcm5nOTRWaloxaWxZTUx5Tmh6djBOdjhpdkdPaXFVVkltL2QvQyt3TFVPU01GUjNzWGxQVVpLbjVBOXh0MXBLZWM5M3RYWXdFbVEzVHZCZ2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTg0MTYwCWZpbGU6Q3VlVGltZV8xLjAuNV94NjQtc2V0dXAuZXhlCnQ3WFdpdU5CS2oxa3gzN0hac1Jxa3E2Q1JMT0NyNVZYcUJ6aUxUNjVGVmdzYlFVc2Z1c2c3K2lOTEd1Zzg1UGhVdDNEUUd6amNsa2FSa0h6L2d5eUFnPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmJBVlZVSGU4a0x5NUNIc1F5aEtRekFLL0dtMklVZUtJRFp5cHJUc3VUQkRCVEp4OW1BTWEyWjNjSXJ2MU12Y1docXBCNVdrVGJpQWJUWlcyUUlXTUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTg0NjYyCWZpbGU6Q3VlVGltZV8xLjAuNV94NjQtc2V0dXAuZXhlClkvYW5RTWtsMWpyVXBEUldKQUJFK1lTUVg3engzd0QvVjNGekwvY0RJazNzYkVVTjBnYnR4aEVCMFRTdmFVQS91TUFwK1hJY2RPWUd3NDZpc28vbkJnPT0K",
       "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.5/CueTime_1.0.5_x64-setup.exe"
     }
   }
