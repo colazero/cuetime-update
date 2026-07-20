@@ -1,9 +1,9 @@
 {
   "version": "1.0.5",
-  "notes": "Temp light with timer. Pause/Swap light. Stop & Continue modal. Print fix.",
+  "notes": "Review fixes: printer config typo, modal type. Temp light. All light lifecycle reworked.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlZpUnNaN3pOUHRISzVwZGVqRU1vTWJ5SmNVS2xFZS83aklscUdnaDRUK1RVOWRNSzlsVS9RYlNDazBHZm5pZmZraHBlSCs1NSt5M25pUmJLNVorcmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTgzNTMxCWZpbGU6Q3VlVGltZV8xLjAuNV94NjQtc2V0dXAuZXhlCmo2RW5pbjN5dWpIdHNzQlJ3NVJWZm85Vis1ZW1DUnhoUWpxcVY1MENpNjdyRFNvZFllVjAxbnpGSGZRVXhPdE9sTUpVUElIZHlFNmpFN0Y2alZyTUN3PT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmQ2QkpYcm5nOTRWaloxaWxZTUx5Tmh6djBOdjhpdkdPaXFVVkltL2QvQyt3TFVPU01GUjNzWGxQVVpLbjVBOXh0MXBLZWM5M3RYWXdFbVEzVHZCZ2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTg0MTYwCWZpbGU6Q3VlVGltZV8xLjAuNV94NjQtc2V0dXAuZXhlCnQ3WFdpdU5CS2oxa3gzN0hac1Jxa3E2Q1JMT0NyNVZYcUJ6aUxUNjVGVmdzYlFVc2Z1c2c3K2lOTEd1Zzg1UGhVdDNEUUd6amNsa2FSa0h6L2d5eUFnPT0K",
       "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.5/CueTime_1.0.5_x64-setup.exe"
     }
   }
