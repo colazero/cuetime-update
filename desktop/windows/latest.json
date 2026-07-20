@@ -1,9 +1,9 @@
 {
   "version": "1.0.4",
-  "notes": "Fix CSV import, birthday field, light/printer bridge, no console window",
+  "notes": "Fix CSV import sync: members.upsert kind. Birthday, auto +60 phone, light/printer bridge.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlg4WTE0c0ZJZ29BK0c0dW16RFZSYlp6UHlTNFZEUmZPc3RWdE5wd3h2cDV3OUN4ZWFzT2ZkVktvZFRWNFpjRUtOSGJYR0NrZmJHT2hzek04dk9lVHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTgwNTYxCWZpbGU6Q3VlVGltZV8xLjAuNF94NjQtc2V0dXAuZXhlCmtlMGtnYXAwd0NyOTMvWXZ6UVhqeklMQVp6K3Y4Nlkwd09HNlRFdVgzY0pvZDY4d3VMamY5QktTV1ZGVm5HcUNpenlENVlKWUtndmNadFd5TERUWEJBPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmVEZFV0L3hpbGdUMHV2Z0tIUVBGT2pUeDZhY2QxUTlxTHcxdWFWTDZ2M2h6b2Q0d1BmQ1VCK0Rta0JSbWdxVzVkeHd0bEJCdGVMMU1aUWRPai9DNHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTgxMDk0CWZpbGU6Q3VlVGltZV8xLjAuNF94NjQtc2V0dXAuZXhlCi9zWWhUOHZkWENucU5kR3Q0Z2MzSi8rRDR5ZkVwVGNWMG5iaFJvMVNlWG5xdkNhOUsreStMWnloMlhuYWpCczVkU09YUUJWbktWOFdaSmNYWmZ5c0J3PT0K",
       "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.4/CueTime_1.0.4_x64-setup.exe"
     }
   }
