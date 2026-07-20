@@ -1,1 +1,10 @@
-{"version":"1.0.1","notes":"Login Enter key, light grid UI, branch-scoped light config","platforms":{"windows-x86_64":{"signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSV0dNYUU1NHE3V0xMenBQdnpBRk9MYmRTa2xzL2sxK1NYajI0UkgzMU1nUkV1NHc5UGx6TGdkVzR6MGN2aUhoTllvK0NrcGRKa0YzTzN5R05BMFRGK01wR0wxWnMwZEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTc0MzMwCWZpbGU6Q3VlVGltZV8xLjAuMV94NjQtc2V0dXAuZXhlCjBpd3ZTMVNnOTl6QnVWbmNGR2xlQ2dkTEppc2Nwa0R2WENtTDhWaHE1WDV4QTI0WWYzZWNMZ2NTNjg3Y1FKRnBQZlpqalNXS25NMHdId0dZeWFHV0RRPT0K","url":"https://github.com/colazero/cuetime-update/releases/download/v1.0.1/CueTime_1.0.1_x64-setup.exe"}}}
+{
+  "version": "1.0.2",
+  "notes": "Fix: no console window, light & printer bridge fix, new updater signing key",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmZjTm5rdjRmNGx1ZWNsNTZEaFhPSG11clZYTFgzSXhydlY0THp3c094T0FXYVkxVkY5UGVTN3BOc1I4Z1lQZk9mNFR3ZjQ2dDFyT0xhQWxick1LZ2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTc2NjA5CWZpbGU6Q3VlVGltZV8xLjAuMl94NjQtc2V0dXAuZXhlCkIzUHdaS2Qvd2xNZlVtdFJkZ08rdmVzMk8rMGU5VHV2ZUwrVXRaQWhzM1FVb0dFTUI3UkkyNkRqNUpKbzlrWDhGdGhJV0VvdDh2MkRIM0FOQ1JpN0JRPT0K",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.2/CueTime_1.0.2_x64-setup.exe"
+    }
+  }
+}
