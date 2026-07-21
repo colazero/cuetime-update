@@ -1,10 +1,10 @@
 {
-  "version": "1.0.16",
-  "notes": "Fix: standalone checkout double confirm buttons. Fix: auto-switch to Paid tab. Add: light-off button.",
+  "version": "1.0.17",
+  "notes": "Fix: paid tab time-sorted entries. Fix: scheduleRender race. Fix: checkout receipt & buttons. Add: light-off button.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYldvblRlZlNaODY5bE1WMWlHTDNWZytncHJKbitURlQ4TnNSVEczUTZOejZvaWd3d3VtcVZFYlFIa0NqSzc0dDRpNE5oTFNoelFLdEZyR0RLS1FQeVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjA2MzgzCWZpbGU6Q3VlVGltZV8xLjAuMTZfeDY0LXNldHVwLmV4ZQpTNThXZEo3V281TDBuSDJvNDRDdkVWYmR5VDhZcXBDTFZYVnQvZ05NZU1qcDhFbEZtUTdUOS9YNEFCM2Y1c1hRWjB0NG9lTEYzYzlUcmc4TWsweW1EZz09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.16/CueTime_1.0.16_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmVkUVVwSWpsZEFteXh6cGYyQ3Fra3hNSm05dTI5MXlNaTgzR0lpa3kzTzRQK0lxaHBUS1hjN2YyVUxKek1iN25EcE0vaFJySmZsSEdWOWVoVGRGL3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjA4MzY4CWZpbGU6Q3VlVGltZV8xLjAuMTdfeDY0LXNldHVwLmV4ZQpBYWpuRy9RVFdmMVl4TnBDOVZDTzRndXp0cE8xWVZIVU96UWVZMnM3S3A2aERwY01UaXdkOEl2cklqWDNzckw1S1lnY0N1dkFQSGN1RU0rOWxKdHpCZz09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.17/CueTime_1.0.17_x64-setup.exe"
     }
   }
 }
