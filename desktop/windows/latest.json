@@ -1,10 +1,10 @@
 {
-  "version": "1.0.21",
-  "notes": "Receipt snapshot refactor: unified receipt data model for preview/print. Fix: discount context.",
+  "version": "1.0.22",
+  "notes": "Fix: members company-scoped (remove branch filter). Fix: discount context in receipt render.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlNBUmxLWWYvTHlRTWlHQ1hPTzJDU1JzRVFhZCtrajlvUVhmZTAwUHhHaGs2a1hYV2p3ckVSZHVCZjFTM2tSMVh6WTdxc0VXRkNKZEpUWTl1cDFNandvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjYxMDAzCWZpbGU6Q3VlVGltZV8xLjAuMjFfeDY0LXNldHVwLmV4ZQp1YXppcUxmQlFvQ3czdnlML3pyVU8zYkUxWWtCWFhPSndpOXk4UUdMVlpaSVlidzdCTjBWSENidHpjVDk0bnVwV3A5cG85alBOK0xpTDY5bys0dFlEZz09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.21/CueTime_1.0.21_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlpzZXV0Ykt2cUExWFpkVjgvdUVISGJTUy9ZSW53TVdBV2pQMXZCUnc1VEI0dTkvZTRWRm5KbjczOVZhUThHUWJRLy9JUDhUazdsT2NiMWJJOWdoQ0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjY3MTExCWZpbGU6Q3VlVGltZV8xLjAuMjJfeDY0LXNldHVwLmV4ZQovaUpkR3p1UlE3RnJibGF1azMra3VhZ200d0RJTWk1b1Y4dFphVnhNUU44dzk0MmlRVHJkeVcwV1JkcUFQQkhVYUdiWFV6SXdVeUU4eGZyTllvdXBEdz09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.22/CueTime_1.0.22_x64-setup.exe"
     }
   }
 }
