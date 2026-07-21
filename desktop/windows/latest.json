@@ -1,10 +1,10 @@
 {
-  "version": "1.0.12",
-  "notes": "Member transaction history + print receipt on top-up/deduction.",
+  "version": "1.0.13",
+  "notes": "Member search: Supabase-first to fix checkout member lookup. Member transaction history + print receipts.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYloza0hoRGpTZ1BBeDNGNHc1VVhyK3o5TkdIdXAxMzk0aEhuNmlOam9ya1NlK2w4KzRZVTJUcTZWckJPczEvNFYyaUt6aUE0MmNBUXdjbW9wbEhOY2dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTk5Nzk1CWZpbGU6Q3VlVGltZV8xLjAuMTJfeDY0LXNldHVwLmV4ZQozeGZBRU5pS1ZiRGVaU25IVi8vSXZndFkxS0h0WWJKc1VIV25ZZDVJZmVOSFlsMzQ4SkI5U040b3ZDbzhTYjJkS2dseE5pQU11Smk3UFNadmcwZlNDUT09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.12/CueTime_1.0.12_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlJFYUx6ZldiUVMyMFhUc1FVSDhnaE5IVDNlN0xyd1gzeDNBaGZWMjBjckZQTkgrU3oxVkN0aEF1UytmRHZjZlNvTnZTKzhVMW5qRUJGdUR3UzNRY0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjAwMjU2CWZpbGU6Q3VlVGltZV8xLjAuMTNfeDY0LXNldHVwLmV4ZQpQOEhUQW04QTBOMzJocWlBZWlpZ0MrcEEwVFFKeEpOL2JlL3VXN1NnOEFkSGJzNGZiLzlQNmdrZFhWY2lJWlZQSDhnTmZCdVdnZEdsS3EwRXBSTnhEQT09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.13/CueTime_1.0.13_x64-setup.exe"
     }
   }
 }
