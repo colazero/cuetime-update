@@ -1,10 +1,10 @@
 {
-  "version": "1.0.14",
-  "notes": "Fix member search bind:value, revert local-first search, unify Stop&Cont both buttons checkout+reopen.",
+  "version": "1.0.15",
+  "notes": "Fix: Completed tab checkout receipt print fallback. Fix: Paid tab not showing checked-out orders. Fix: double-confirm removed for standalone checkout.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmVzamNmYW16UHVWNjhCdlI5VWVEU3VkRnpneW5QRjZnb0JQNlFnNXd0TjFqMVJkdU9VdWdwVTdDUVB5dlMyL2lkRkpiNHh1dWFPUzdwcWkvWGw2NVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjAxMTE1CWZpbGU6Q3VlVGltZV8xLjAuMTRfeDY0LXNldHVwLmV4ZQpWenNZRmVUTGZadkhaclBZMy9vTXV3akFIMWdEaktCcjh3ZjJxMDJIQU4zVWQzNW1qQ3BFWFF6NWVuWlNQM2JXRjl3MkxxUTVmQlZnaWxUR1U5MDdBdz09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.14/CueTime_1.0.14_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlJIYndvcDBNNFEwc1dFc0E0SW5xQ2QxejFwYW1nRmhWK1B5N3hjRTlBOGhVa2h0VlVpdlR3TVBUaE9zZHBrazZjaUVEb0xYdEZ0VHBYK2RzYTU1V2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjA1Mzc3CWZpbGU6Q3VlVGltZV8xLjAuMTVfeDY0LXNldHVwLmV4ZQozVUFmdHlLZTdRbkRRcTByMERqWDNWY3ppbUpPN2FlSHdUTHdjQitEKzhQVlBma3V6cjhFaVNKYjh2RGxaMmFQZzB0KzNYMWJ5VUVUVWZMMHI3VGFCdz09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.15/CueTime_1.0.15_x64-setup.exe"
     }
   }
 }
