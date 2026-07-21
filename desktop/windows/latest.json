@@ -1,10 +1,10 @@
 {
-  "version": "1.0.18",
-  "notes": "Add start time, end time, duration, and pause logs to printed receipts.",
+  "version": "1.0.19",
+  "notes": "Fix discount, member balance checkout, shift report time & payment breakdown, print CSS blank pages.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlh2QWxWRDVFN0dxRlNUVCtMMFBBaWliTUxMeVdteFNzSVg0bnVjdXI0ZnpyclhvLzQ5d0owSXJSd1ZjY003SnZBQWUyTGZWMFJ4TkJyd3EzV1h1WncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjA5MzQ0CWZpbGU6Q3VlVGltZV8xLjAuMThfeDY0LXNldHVwLmV4ZQpmZ2g2Z0Z0K21oQWNoaUdOWmk1bWhRQk82bEFCVDRaemRhWThGTGx6UEV6U3hQOTJnbitJMzQzYzlqbnh6VHljVUxuK3VYL2RUNUg1Z2JKb085UlFCQT09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.18/CueTime_1.0.18_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYllVdXBTaDJ4NWkvbXZFcGZkV1ptOWdtYXhsVzBPZTRrcXJ2eW9Nb1h6QURqWTVJM0ZWVGY3cUh6NGlkMVVjNEdTbkFkL2VDZUozdWxwLzUvVkZuYkFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjM5NjUyCWZpbGU6Q3VlVGltZV8xLjAuMTlfeDY0LXNldHVwLmV4ZQprLyswbCtFdFZKcmxIUGNISXZuWHlJSllMSVA1eEIxaXpmdksrWnoxY1hHaFFiamdiSitnbGVSZUwyT3UxdVdJTTZTbnlTRDRhY012L3lwUmhnb1ZEQT09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.19/CueTime_1.0.19_x64-setup.exe"
     }
   }
 }
