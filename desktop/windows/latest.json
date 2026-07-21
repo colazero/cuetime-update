@@ -1,10 +1,10 @@
 {
-  "version": "1.0.17",
-  "notes": "Fix: paid tab time-sorted entries. Fix: scheduleRender race. Fix: checkout receipt & buttons. Add: light-off button.",
+  "version": "1.0.18",
+  "notes": "Add start time, end time, duration, and pause logs to printed receipts.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmVkUVVwSWpsZEFteXh6cGYyQ3Fra3hNSm05dTI5MXlNaTgzR0lpa3kzTzRQK0lxaHBUS1hjN2YyVUxKek1iN25EcE0vaFJySmZsSEdWOWVoVGRGL3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjA4MzY4CWZpbGU6Q3VlVGltZV8xLjAuMTdfeDY0LXNldHVwLmV4ZQpBYWpuRy9RVFdmMVl4TnBDOVZDTzRndXp0cE8xWVZIVU96UWVZMnM3S3A2aERwY01UaXdkOEl2cklqWDNzckw1S1lnY0N1dkFQSGN1RU0rOWxKdHpCZz09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.17/CueTime_1.0.17_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlh2QWxWRDVFN0dxRlNUVCtMMFBBaWliTUxMeVdteFNzSVg0bnVjdXI0ZnpyclhvLzQ5d0owSXJSd1ZjY003SnZBQWUyTGZWMFJ4TkJyd3EzV1h1WncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjA5MzQ0CWZpbGU6Q3VlVGltZV8xLjAuMThfeDY0LXNldHVwLmV4ZQpmZ2g2Z0Z0K21oQWNoaUdOWmk1bWhRQk82bEFCVDRaemRhWThGTGx6UEV6U3hQOTJnbitJMzQzYzlqbnh6VHljVUxuK3VYL2RUNUg1Z2JKb085UlFCQT09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.18/CueTime_1.0.18_x64-setup.exe"
     }
   }
 }
