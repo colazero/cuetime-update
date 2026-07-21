@@ -1,10 +1,10 @@
 {
-  "version": "1.0.9",
-  "notes": "Hotfix: checkout RPC from_status fix + COMPLETED sessions kept for Paid tab display. Paid tab merges table sessions + orders, right-click menu Svelte component, member scroll fix.",
+  "version": "1.0.10",
+  "notes": "Paid tab: RM currency display fix. COMPLETED sessions preserved in all code paths (realtime, fetchSessions, checkout). Right-click menu Svelte component. Member scroll fix.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlp6UFBrVTQvQUtNdWRqTHhVaTR3anlXTjR3dWNDTUYxREVVclJEYkRkM0NqN0xoMm1OYnRlaU9uMkoyTFVKcHdrdkliUENPSVVsbjFETUVUMVhjZFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTk2NDI4CWZpbGU6Q3VlVGltZV8xLjAuOV94NjQtc2V0dXAuZXhlCmxUM3Bwb3RnMXpuWFBxRG1kTFAyamxzbE5wbE9qVXdXSUFVWWJNVUxnQnMwYmVLYi8xcXVVVlA2bTY4TWltV0sxMmJxc0J6enRZQ1d1QXlqakVyQkFBPT0K",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.9/CueTime_1.0.9_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlJ1RlpTdVlWUFc3NjhiQzd1RjE1eG9rY3dnYkZOdjZJK2xrSTRML1Yyc05DWWRLMWJFbGNUcjVzeTBsd3Fxb3pBWEtXMzdQUE0rS25TczhKT1cwd0FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTk3NDExCWZpbGU6Q3VlVGltZV8xLjAuMTBfeDY0LXNldHVwLmV4ZQowK0FjRDZqVHoySlhxNDhjWGJrRUY3bFJSU2ZEZk1DbjExWEl4NzJCazlEc3pWNkhYYi9xbDAxM0VYRnJhS29nRm9IMWh5TkFQc2lCOGZPNW1ycUZBQT09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.10/CueTime_1.0.10_x64-setup.exe"
     }
   }
 }
