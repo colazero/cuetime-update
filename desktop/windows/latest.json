@@ -1,10 +1,10 @@
 {
-  "version": "1.0.20",
-  "notes": "Receipt: discount shows amount, Start/End order fixed, payment methods below items.",
+  "version": "1.0.21",
+  "notes": "Receipt snapshot refactor: unified receipt data model for preview/print. Fix: discount context.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmZQN2tGemh0L2hvTS9XalNDemN5UEN6MmJURlZjR0JGcFJlRHZ6Unh3RVpnd01raWYrd2ptNnBoZHVoQS8rUDhMSjVEdzNIWTVOYzNlbm45ZG12akF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjU1ODM3CWZpbGU6Q3VlVGltZV8xLjAuMjBfeDY0LXNldHVwLmV4ZQoyemtvcFEyMGVqQUU3QlZqckEvOHFpR0NYK01vVklrS1pQSHJWVEN2ODMrbzM5dFhMSWt5TmNTQXAzb0VybDc2OU5RbDVPbjRLNSs4WFM5YlFNN3RDQT09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.20/CueTime_1.0.20_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlNBUmxLWWYvTHlRTWlHQ1hPTzJDU1JzRVFhZCtrajlvUVhmZTAwUHhHaGs2a1hYV2p3ckVSZHVCZjFTM2tSMVh6WTdxc0VXRkNKZEpUWTl1cDFNandvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjYxMDAzCWZpbGU6Q3VlVGltZV8xLjAuMjFfeDY0LXNldHVwLmV4ZQp1YXppcUxmQlFvQ3czdnlML3pyVU8zYkUxWWtCWFhPSndpOXk4UUdMVlpaSVlidzdCTjBWSENidHpjVDk0bnVwV3A5cG85alBOK0xpTDY5bys0dFlEZz09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.21/CueTime_1.0.21_x64-setup.exe"
     }
   }
 }
