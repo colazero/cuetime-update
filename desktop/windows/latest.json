@@ -1,9 +1,9 @@
 {
   "version": "1.0.9",
-  "notes": "Hotfix: checkout RPC from_status was reading already-mutated PAID status. Also: Paid tab merges table sessions + orders, right-click menu Svelte component, member scroll fix.",
+  "notes": "Hotfix: checkout RPC from_status fix + COMPLETED sessions kept for Paid tab display. Paid tab merges table sessions + orders, right-click menu Svelte component, member scroll fix.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlovZThMaUR2TGU2V0JPQWQzVFhaQjNURGVQc2ZpQlRqT1lIVEFFczFFSkUyd0FOVThRa21DWTFrT1Q1aFZUdDVPWVV5aFpzcGE1TFozeHowKzBFSXdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTk2Mjc2CWZpbGU6Q3VlVGltZV8xLjAuOV94NjQtc2V0dXAuZXhlCkNtc1F1VVVPeG5RL3BlSnhlZmg2bkdFMS9DNlljK0V0bUw3aUVFbGhiKzBOK1JRVVp0Tll0R2hLYitEemFxV3J6OWtsL0NFeGFOWkQwdTBhMnVJWUNBPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlp6UFBrVTQvQUtNdWRqTHhVaTR3anlXTjR3dWNDTUYxREVVclJEYkRkM0NqN0xoMm1OYnRlaU9uMkoyTFVKcHdrdkliUENPSVVsbjFETUVUMVhjZFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NTk2NDI4CWZpbGU6Q3VlVGltZV8xLjAuOV94NjQtc2V0dXAuZXhlCmxUM3Bwb3RnMXpuWFBxRG1kTFAyamxzbE5wbE9qVXdXSUFVWWJNVUxnQnMwYmVLYi8xcXVVVlA2bTY4TWltV0sxMmJxc0J6enRZQ1d1QXlqakVyQkFBPT0K",
       "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.9/CueTime_1.0.9_x64-setup.exe"
     }
   }
