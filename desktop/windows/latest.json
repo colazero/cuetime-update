@@ -1,10 +1,10 @@
 {
-  "version": "1.0.19",
-  "notes": "Fix discount, member balance checkout, shift report time & payment breakdown, print CSS blank pages.",
+  "version": "1.0.20",
+  "notes": "Receipt: discount shows amount, Start/End order fixed, payment methods below items.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYllVdXBTaDJ4NWkvbXZFcGZkV1ptOWdtYXhsVzBPZTRrcXJ2eW9Nb1h6QURqWTVJM0ZWVGY3cUh6NGlkMVVjNEdTbkFkL2VDZUozdWxwLzUvVkZuYkFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjM5NjUyCWZpbGU6Q3VlVGltZV8xLjAuMTlfeDY0LXNldHVwLmV4ZQprLyswbCtFdFZKcmxIUGNISXZuWHlJSllMSVA1eEIxaXpmdksrWnoxY1hHaFFiamdiSitnbGVSZUwyT3UxdVdJTTZTbnlTRDRhY012L3lwUmhnb1ZEQT09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.19/CueTime_1.0.19_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmZQN2tGemh0L2hvTS9XalNDemN5UEN6MmJURlZjR0JGcFJlRHZ6Unh3RVpnd01raWYrd2ptNnBoZHVoQS8rUDhMSjVEdzNIWTVOYzNlbm45ZG12akF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjU1ODM3CWZpbGU6Q3VlVGltZV8xLjAuMjBfeDY0LXNldHVwLmV4ZQoyemtvcFEyMGVqQUU3QlZqckEvOHFpR0NYK01vVklrS1pQSHJWVEN2ODMrbzM5dFhMSWt5TmNTQXAzb0VybDc2OU5RbDVPbjRLNSs4WFM5YlFNN3RDQT09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.20/CueTime_1.0.20_x64-setup.exe"
     }
   }
 }
