@@ -1,10 +1,1 @@
-{
-  "version": "1.0.24",
-  "notes": "Member module refactor, reports & shift enhancements.",
-  "platforms": {
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlE4ZWk2dWo4RXFsZVpyem9uVHU3OFJjV3VmNWNBTVRZSXdWanY0Y1BxOEwrclgzdFZWckIxRnRkZit2N3F1SDVMM203alE3ZFZIbnE1Q2svVU9pT0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjgzMzY0CWZpbGU6Q3VlVGltZV8xLjAuMjRfeDY0LXNldHVwLmV4ZQpac2JPYUNNL2NHd3ZHY1h2WHFIQWV3cXprNGF6TU1sZDRGRDFhMERDUndCdk4rNkd5a0VlZ2hDYmlhNXRBWjBWL21pUGVETERmb2pYOEhFbTJ2NnVEZz09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.24/CueTime_1.0.24_x64-setup.exe"
-    }
-  }
-}
+{"version":"1.0.25","notes":"orderCheckout fix.","platforms":{"windows-x86_64":{"signature":"dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlVJakh2M3d0M25ZN3YzazM3VlZMWDRpYlllK2VVdHRPSHhKTEtnWTNyUmt0dlF6bzhDcCsyL05ZbXo3ZjFaTDFRdkhzQUNlelh3c3d0bG1QTWpzaGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NzE0MzE3CWZpbGU6Q3VlVGltZV8xLjAuMjVfeDY0LXNldHVwLmV4ZQpZaTNUYmh6bTNGeDFEWCtDQ0ZMZS9ONks3RnBrWmdDQTBVRDZ6TlRYY0V5S0ZXWmEraHNhMG9SZncxQnFTdVVoQlRYSEFZa2NJQmdScFlJbmsrRDVDQT09Cg==","url":"https://github.com/colazero/cuetime-update/releases/download/v1.0.25/CueTime_1.0.25_x64-setup.exe"}}}
