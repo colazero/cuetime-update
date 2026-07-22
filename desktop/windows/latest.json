@@ -1,1 +1,10 @@
-{"version":"1.0.29","notes":"fetchProducts local protection, sessions realtime terminal guard","platforms":{"windows-x86_64":{"signature":"dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlU1dWkrQ1Q4YkFLQk0rMnlUREg4ejFsV3FyUUVvTHgrY2NBb0F3NEZkUGVpaVdxK0k3RDBjaXRpNk41UU5ncmlhbXdvNDBoQm5qUFNUblNmbGpXMlE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NzM3NDc4CWZpbGU6Q3VlVGltZV8xLjAuMjlfeDY0LXNldHVwLmV4ZQpFckhnSUJUcGJxNWdZL3RRQjh4Q0dRaTVIUkZwSFl3MHYrRDlNaHdNVWNjdGVhUDlOdTV3SUN2dmlvU202V0E0Vm4zeGFTWjU2Q245b09yekZmaFhDdz09Cg==","url":"https://github.com/colazero/cuetime-update/releases/download/v1.0.29/CueTime_1.0.29_x64-setup.exe"}}}
+{
+  "version": "1.0.30",
+  "notes": "修复：会员充值bonus拆分、班次差额排除会员余额支付、换台后台费每秒计费、结账余额不足校验、支付金额多小数位",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmFqYTdFa2FjQVRjUkFQM1ZnSW5sZFFIbURybi8wMnFRazg4TGhWTnVXYlcrL1hkeUx6VEppWE45aVZDNnZ4VHB5Y0lFUG9GQ0c0blVQck56RGxBSmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NzYzODk2CWZpbGU6Q3VlVGltZV8xLjAuMzBfeDY0LXNldHVwLmV4ZQpobENJenY3YWI0a3hDdGhCYWRVVXBSRXBNNnE2ZjZyNmpab3drZTkyR2hHYTNsUHl6WnlZVDAvbGl5N3NrNmhMS21ReWM4UjIraExWdHdwampNWUdBdz09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.30/CueTime_1.0.30_x64-setup.exe"
+    }
+  }
+}
