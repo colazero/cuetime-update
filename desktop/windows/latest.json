@@ -1,10 +1,10 @@
 {
-  "version": "1.0.31",
-  "notes": "fix: paid tab 订单消失 + sync apikey header 失败",
+  "version": "1.0.32",
+  "notes": "fix: 独立订单（外卖/休息区）重打收据错误显示折扣 + Total Paid 为 0",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmE3Q2tGSEpNUm9HR29XcGM2QThNOGk1UTFpT3BONHEwcmhxeGZFRnJiK2puVGpZWWltcEZjRFJoMTRLMVhjeHM2OEJYVkhScVhVTUVOMnlvcnBwQUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NzcyNTA1CWZpbGU6Q3VlVGltZV8xLjAuMzFfeDY0LXNldHVwLmV4ZQowM3QxU2ZvaklYTTdPN3grMktSYUhPaVJSV1d3NmVtNzYwR0xLRmdjWkZ1eVZkZXVJUDJTdWVlRkhFM09mTjZ0dlYwYWlncFdnMDR2VFU4dmQ4L1ZEZz09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.31/CueTime_1.0.31_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlJEdFlacnlqYUFlenZuNytld2hMUXhGa2kzcG9SeUxEZ0laaVBEdDVFSmhFSUJyZlNqWlYwVVJTcUtiRnhxV1E3NHJxNitwMG1vdXJXWU9iVEdjU1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NzczODQ3CWZpbGU6Q3VlVGltZV8xLjAuMzJfeDY0LXNldHVwLmV4ZQpVcENiSWR2VXV3QzZQblQ2bHMrTEQ4cFBlYjNBcnZNRzBFWEx2Y05UaU5QMzlwTytRVGZFOXpndktqaGJlODdIanR3eU45RDVJZUV6SzJWTnhKMUNDdz09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.32/CueTime_1.0.32_x64-setup.exe"
     }
   }
 }
