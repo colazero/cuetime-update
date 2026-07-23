@@ -1,10 +1,10 @@
 {
-  "version": "1.0.30",
-  "notes": "修复：会员充值bonus拆分、班次差额排除会员余额支付、换台后台费每秒计费、结账余额不足校验、支付金额多小数位",
+  "version": "1.0.31",
+  "notes": "fix: paid tab 订单消失 + sync apikey header 失败",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmFqYTdFa2FjQVRjUkFQM1ZnSW5sZFFIbURybi8wMnFRazg4TGhWTnVXYlcrL1hkeUx6VEppWE45aVZDNnZ4VHB5Y0lFUG9GQ0c0blVQck56RGxBSmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NzYzODk2CWZpbGU6Q3VlVGltZV8xLjAuMzBfeDY0LXNldHVwLmV4ZQpobENJenY3YWI0a3hDdGhCYWRVVXBSRXBNNnE2ZjZyNmpab3drZTkyR2hHYTNsUHl6WnlZVDAvbGl5N3NrNmhMS21ReWM4UjIraExWdHdwampNWUdBdz09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.30/CueTime_1.0.30_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmE3Q2tGSEpNUm9HR29XcGM2QThNOGk1UTFpT3BONHEwcmhxeGZFRnJiK2puVGpZWWltcEZjRFJoMTRLMVhjeHM2OEJYVkhScVhVTUVOMnlvcnBwQUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NzcyNTA1CWZpbGU6Q3VlVGltZV8xLjAuMzFfeDY0LXNldHVwLmV4ZQowM3QxU2ZvaklYTTdPN3grMktSYUhPaVJSV1d3NmVtNzYwR0xLRmdjWkZ1eVZkZXVJUDJTdWVlRkhFM09mTjZ0dlYwYWlncFdnMDR2VFU4dmQ4L1ZEZz09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.31/CueTime_1.0.31_x64-setup.exe"
     }
   }
 }
