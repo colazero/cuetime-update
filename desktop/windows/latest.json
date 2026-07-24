@@ -1,10 +1,10 @@
 {
-  "version": "1.0.32",
-  "notes": "fix: 独立订单（外卖/休息区）重打收据错误显示折扣 + Total Paid 为 0",
+  "version": "1.0.33",
+  "notes": "fix: Member Report 跨设备数据 + 独立订单积分规则绕过 + 积分规则缓存不刷新",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlJEdFlacnlqYUFlenZuNytld2hMUXhGa2kzcG9SeUxEZ0laaVBEdDVFSmhFSUJyZlNqWlYwVVJTcUtiRnhxV1E3NHJxNitwMG1vdXJXWU9iVEdjU1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NzczODQ3CWZpbGU6Q3VlVGltZV8xLjAuMzJfeDY0LXNldHVwLmV4ZQpVcENiSWR2VXV3QzZQblQ2bHMrTEQ4cFBlYjNBcnZNRzBFWEx2Y05UaU5QMzlwTytRVGZFOXpndktqaGJlODdIanR3eU45RDVJZUV6SzJWTnhKMUNDdz09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.32/CueTime_1.0.32_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlhmakg3Y3VzWDlObGJHRHMzVmgwWjlTajR0aUtpeU5PMEpPdmczQlo2R2UveTBxaXd1U3JQQlhPOHNjOHcrNGYrRjhFam8zSHM3Ky9nVUdVR2crZ2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0OTA4MTAwCWZpbGU6Q3VlVGltZV8xLjAuMzNfeDY0LXNldHVwLmV4ZQozRFRmRVBvSE1lYlpxSTU3c1VFMzQ2d0djODhIY2ZyOUU0cEJxSXRRcFNNZnUwUjRVTktsWkxBQ0g3QTRmbXBoTXRCayt4WThjNTBmYURXTkk3WDhBdz09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.33/CueTime_1.0.33_x64-setup.exe"
     }
   }
 }
