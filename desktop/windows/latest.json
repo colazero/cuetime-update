@@ -1,10 +1,1 @@
-{
-  "version": "1.0.33",
-  "notes": "fix: Member Report 跨设备数据 + 独立订单积分规则绕过 + 积分规则缓存不刷新",
-  "platforms": {
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlhmakg3Y3VzWDlObGJHRHMzVmgwWjlTajR0aUtpeU5PMEpPdmczQlo2R2UveTBxaXd1U3JQQlhPOHNjOHcrNGYrRjhFam8zSHM3Ky9nVUdVR2crZ2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0OTA4MTAwCWZpbGU6Q3VlVGltZV8xLjAuMzNfeDY0LXNldHVwLmV4ZQozRFRmRVBvSE1lYlpxSTU3c1VFMzQ2d0djODhIY2ZyOUU0cEJxSXRRcFNNZnUwUjRVTktsWkxBQ0g3QTRmbXBoTXRCayt4WThjNTBmYURXTkk3WDhBdz09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.33/CueTime_1.0.33_x64-setup.exe"
-    }
-  }
-}
+{"version":"1.0.34","notes":"refactor: member.ts split + DataSource + isOnline + checkoutShared + 6 bug fixes","platforms":{"windows-x86_64":{"signature":"dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlJvT0YxcmJkMU9jZkNMaDZOQk0rdmVWQVdjaklJNG5ua3cwSFlOenF4OXduN2pBSEc5RHh5UTM0WTBXRmtRLzhicWdkMlovSFFqQjZaTW9kdFlVNWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0OTEzODg4CWZpbGU6Q3VlVGltZV8xLjAuMzRfeDY0LXNldHVwLmV4ZQpEVXJSVXJUQ0IrNklNRHZTUUM0dFE2MXcvcG9nU2IyT0JySGRFbCtTNjV3ekppR2hmYnR0TnRraXVCRFhZVitjdGxNYXdvUjNJM1pyeWt3TTYzRkRBZz09Cg==","url":"https://github.com/colazero/cuetime-update/releases/download/v1.0.34/CueTime_1.0.34_x64-setup.exe"}}}
