@@ -1,10 +1,10 @@
 {
-  "version": "1.0.41",
-  "notes": "fix: member tab bleed \u2014 Members tab white-screened after switching away and back",
+  "version": "1.0.42",
+  "notes": "\u66f4\u65b0\uff1a\u706f\u63a7\u5b9a\u65f6\u5668\u6301\u4e45\u5316 \u2014 \u4fee\u590d\u91cd\u542f\u540e\u5b9a\u65f6\u5668\u4e22\u5931\uff0c\u8865 light_control force \u53c2\u6570",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmJqMzdGMDc2UVE1eEYvMmx1T2thMXI3T1plcENHeDZTMGc0SlBqVXFwZVR4cHFyMWYwVDRsRzRyTDBSY1F1RjFWZldYQmNpcHVpeUcydGVMN0VNYkFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MTM4NDk3CWZpbGU6Q3VlVGltZV8xLjAuNDFfeDY0LXNldHVwLmV4ZQo2dWF3UFlTK2ZZQkdScGQyTHVWV1ZYQUwza1oySTY2bDVYRG5QNWFLZTYrSG1Rb0t0SjVDNUx0VWJDSHBSZ2c4NHBKMzdDbUpGMldMWEJFVUVwajNCdz09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.41/CueTime_1.0.41_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmRuZ2RYYnhrNWtnVG85OUd2Ym9JYWFMeXV6QmpzaEwvWm9XcE5qVmU1WEVUZWFQNWY1aUxiZWp4SThIc0VPaVI2UDdUeTBUa2lZYzBqMXhjT3ZBeXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MTQ0Njg0CWZpbGU6Q3VlVGltZV8xLjAuNDJfeDY0LXNldHVwLmV4ZQpqSlM5WUsyb3A1eDM2NGE5TWNSSTFoUlZVT0dSUTZXZXJSUXpRY3NyaGp3YS92SWFhTE9abXh5R085eDRHVHZ0L1pocVN4c0VVUWpCMVdoRG1ObUxCdz09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.42/CueTime_1.0.42_x64-setup.exe"
     }
   }
 }
