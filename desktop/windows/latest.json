@@ -1,1 +1,10 @@
-{"version":"1.0.40","notes":"QR module + purchase order review unification","platforms":{"windows-x86_64":{"signature":"dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmJRN28wd3Q5M2Y1WjJhMHNSNnJXNis0TjdaQ2ZjeHVZVkVWcFJ0Q2ZURFpsYmJONEprWEMrUDgvR2VUays5cEFNb2dreDViYjJiRTZsMUsyRnp6cHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NzIzMzg0CWZpbGU6Q3VlVGltZV8xLjAuNDBfeDY0LXNldHVwLmV4ZQpPd0NCdEFMQjhoQWZQbU9OK3kvajZlMml3dldFK2gycUdqRkFEeHk2Z1JqbTcyQlJ2UHNieEpqb2JTQ0hYd3VXRERkRFlDU29iRlNITTNQdnJiR1VEZz09Cg==","url":"https://github.com/colazero/cuetime-update/releases/download/v1.0.40/CueTime_1.0.40_x64-setup.exe"}}}
+{
+  "version": "1.0.41",
+  "notes": "fix: member tab bleed \u2014 Members tab white-screened after switching away and back",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmJqMzdGMDc2UVE1eEYvMmx1T2thMXI3T1plcENHeDZTMGc0SlBqVXFwZVR4cHFyMWYwVDRsRzRyTDBSY1F1RjFWZldYQmNpcHVpeUcydGVMN0VNYkFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MTM4NDk3CWZpbGU6Q3VlVGltZV8xLjAuNDFfeDY0LXNldHVwLmV4ZQo2dWF3UFlTK2ZZQkdScGQyTHVWV1ZYQUwza1oySTY2bDVYRG5QNWFLZTYrSG1Rb0t0SjVDNUx0VWJDSHBSZ2c4NHBKMzdDbUpGMldMWEJFVUVwajNCdz09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.41/CueTime_1.0.41_x64-setup.exe"
+    }
+  }
+}
