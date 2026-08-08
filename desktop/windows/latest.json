@@ -1,10 +1,10 @@
 {
-  "version": "1.0.43",
-  "notes": "修复：积分规则保存导致会员页空白、手动扣款错误赠送积分",
+  "version": "1.0.44",
+  "notes": "性能遥测埋点（login/per-table/realtime/tab-switch）+ .gitignore 忽略 .reasonix/",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmFVT1M2cFhDYUNLSWJlUnRybWxmbWJvVm1CYThZUUIxejhwREJ4UVBaOTBDNlJhalB3YUxjRERVMW5FOEtLTVFaejF4MHE0QlFNWTFLSzI1cnZlbGdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MTUzNDcyCWZpbGU6Q3VlVGltZV8xLjAuNDNfeDY0LXNldHVwLmV4ZQpBSTNuMEFRVHp1UjJEMmZxZmlyUitYNkVJc25heUsvL3A1cVFveWdmMmFxQ0EwaHRLRVdwVWZrT1hnSEJEWjZCSU4vVDl1WFg0TktHWWpPdTdmNEtEQT09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.43/CueTime_1.0.43_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlRtQmE1Z29XR0lNTnp3dkJZVXhSL243dlRQTzZuOWJOb20zcC9Eb3UvN3R3dllEQ0tRVUZaNlB2R1VtYVdhOEhLcW9rK3pacmpRQVVkeDI0N0RSVkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MTU2NjI3CWZpbGU6Q3VlVGltZV8xLjAuNDRfeDY0LXNldHVwLmV4ZQpwT1d4Zlp0R01nM2hkU1dPNm9SbmF2aWpvLy8rZFdZZTFGZWwwcDhnV0Q3M1prSTRWNTMxaS9MTEo3SjREajlqSkcyenlvZ0tPUUF4U0gzbXgveXpBQT09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.44/CueTime_1.0.44_x64-setup.exe"
     }
   }
 }
