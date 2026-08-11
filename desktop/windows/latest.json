@@ -1,10 +1,10 @@
 {
-  "version": "1.0.45",
-  "notes": "灯控中继 relay + 安卓端 rewrite（远程桌台/灯控/订单响铃）",
+  "version": "1.0.46",
+  "notes": "结账幂等（入口互斥锁 + 会员余额乐观锁）",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmNCMWlncGdzbGJHcm1aWkRnTEZUUXlCTS8rVmNNcnNWdWtaeHhxK2lqK1dMMy9UQTRzM05LTkozRE9XNFo5bmpSS3hLeDRyUkhrWDRrVGtYUkNiWlFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjUzMTUwCWZpbGU6Q3VlVGltZV8xLjAuNDVfeDY0LXNldHVwLmV4ZQppTUlXcXYwTWJYc2R1QWQ4NzQ5Q3dsQ0VzcVQvS25tNW84UzR1VG9RK1hCS2dySmk3bHRvTmtnRWVDZnNhTE5xQ2ZSSkFnV2l3OFVnVDgxd0ZRa25EUT09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.45/CueTime_1.0.45_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlNFcE9abWVNMXlpcEV5QkQ3TzdDaTc1SkxZbXMzbUJyajNJMVFDbXR4Uk4rQ2JoaVVWanlJM09XcjlWVUphQnlBV2srQ05Ca2dLNFJ0K3E0YjREVmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDE4MDk0CWZpbGU6Q3VlVGltZV8xLjAuNDZfeDY0LXNldHVwLmV4ZQpNUForWjhxZUVTRUdBUkQ0TmJNZmZad0huaStKNzZtWHlMSjgxRXk1TGlqTmdJU0RNcjkvVzd3QlhlTDRIZUJ0Rm53eVoxNkt0Unp2ZStWVGd5dzVEZz09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.46/CueTime_1.0.46_x64-setup.exe"
     }
   }
 }
