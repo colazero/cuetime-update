@@ -1,11 +1,11 @@
 {
-  "version": "1.0.62",
-  "notes": "1.0.62：修复 add_PageSetup 无效事件（打印脚本跑通）",
-  "pub_date": "2026-08-20T09:34:07.913Z",
-  "platforms": {
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmVHMysvdzFEYlFISzV4ZkoxY0tOQnQ5c0xUOHFEdmpzWVRqdURBQnJNYlFrcFF4MjJCY3h5TXlneVZJWmdUYzZaZ0dGcUlCU09zK3hQTlBjUU1xR0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjE4NDIzCWZpbGU6Q3VlVGltZV8xLjAuNjJfeDY0LXNldHVwLmV4ZQppZk5mQVByNVVIQmRZRVg2QTdpSmNnQTZxUDF4dkszSHRVWkd2WllGWjk2V0U4T2hlWENteWhQK3Evanh5cW1vT0g5ckNuaXVRbmpMcEdCRzJGWkxDZz09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.62/CueTime_1.0.62_x64-setup.exe"
-    }
-  }
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlh5UVZadlhkdGFkY3V3REhoZnNTM1hNRUNHMHZzMkptazlSWmtVVUxkejJiQ0hMMU5wSUdXc1NmWTJuRWMwY0tWbTVVUFR0Z3JrRUluMTNXMzYySmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjM2MzI2CWZpbGU6Q3VlVGltZV8xLjAuNjNfeDY0LXNldHVwLmV4ZQpReVhQeVZsdElidUdNQnRSc1k1VUZZTnlBNFRkOW5LYnU2L0Z0YVR4ZmNtR0lKQWdNUTNqUTg5NUNqMUFZb05ReGQ5eHB5WjlWenR0S0tUZW5QUmVBQT09Cg==",
+                                             "url":  "https://github.com/colazero/cuetime-update/releases/download/v1.0.63/CueTime_1.0.63_x64-setup.exe"
+                                         }
+                  },
+    "pub_date":  "2026-08-20T14:33:52.464Z",
+    "version":  "1.0.63",
+    "notes":  "1.0.63：统一自动打印收据样式（ASCII 分隔线/纸宽自适应）+ 班次收班总额核对公式"
 }
