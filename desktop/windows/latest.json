@@ -1,11 +1,11 @@
 {
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlh5UVZadlhkdGFkY3V3REhoZnNTM1hNRUNHMHZzMkptazlSWmtVVUxkejJiQ0hMMU5wSUdXc1NmWTJuRWMwY0tWbTVVUFR0Z3JrRUluMTNXMzYySmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjM2MzI2CWZpbGU6Q3VlVGltZV8xLjAuNjNfeDY0LXNldHVwLmV4ZQpReVhQeVZsdElidUdNQnRSc1k1VUZZTnlBNFRkOW5LYnU2L0Z0YVR4ZmNtR0lKQWdNUTNqUTg5NUNqMUFZb05ReGQ5eHB5WjlWenR0S0tUZW5QUmVBQT09Cg==",
-                                             "url":  "https://github.com/colazero/cuetime-update/releases/download/v1.0.63/CueTime_1.0.63_x64-setup.exe"
-                                         }
-                  },
-    "pub_date":  "2026-08-20T14:33:52.464Z",
-    "version":  "1.0.63",
-    "notes":  "1.0.63：统一自动打印收据样式（ASCII 分隔线/纸宽自适应）+ 班次收班总额核对公式"
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmFTdkh1bThVeDlrdXR2RzFwcmdidkRDbW9BaDU3V3VVVk91cTBLeU95dFRtbzI1TTk1QkxNTG5ybXp6OHNQUzErSWlmNGVKZ2g5YlZqZ3RsRWlLNHdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjUxNjQzCWZpbGU6Q3VlVGltZV8xLjAuNjRfeDY0LXNldHVwLmV4ZQplRkM1NmxUUHVuWDZIemZkTUxpWHBjeVhzNEFlaFRWTlIwcWhpalJuM0EyVkowekNrMGdCY1dGVzJneno4d0EvUW5FOGNVdlhCMUk0MWpPeTVPZDhBQT09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.64/CueTime_1.0.64_x64-setup.exe"
+    }
+  },
+  "pub_date": "2026-08-20T18:47:56.830Z",
+  "version": "1.0.64",
+  "notes": "1.0.64：SimHei 字体 + 11/8pt 字号 + 右缘净空"
 }
