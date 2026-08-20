@@ -1,11 +1,11 @@
 {
-  "version": "1.0.59",
-  "notes": "1.0.59：修复临时文件句柄占用导致的 ReadAllBytes 失败",
-  "pub_date": "2026-08-20T08:54:57.889Z",
+  "version": "1.0.60",
+  "notes": "1.0.60：PrintDocument 80mm 纸宽（修 A4 缩小居中）+ 纸宽可配置",
+  "pub_date": "2026-08-20T09:10:16.505Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmJJOHorc3ducWFuSkowVVZHQ1E5UitEN0dNTG0zTmtQbHd1SU5OZWNJMTBXUkJCbUtXVjBnbzNMRW96Ti9KVVU5QUp5S2RGeStxVFVGdm55ckhQQ1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjE2MDQwCWZpbGU6Q3VlVGltZV8xLjAuNTlfeDY0LXNldHVwLmV4ZQpKSjFSSlpMRWhETVF5Ykc3Zks3OVhveHNJSWluZm5LVkpQVGxCdTZCaGdkZ0RXWCt4eldSS1k5Wno4OVVYWnIxZUdwQ0VpOGVtY0V5emVFTExKeWREZz09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.59/CueTime_1.0.59_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlI2OFl2Z0M4M08wRHBveVBsWDE0cDNwQXJIYTNEeTd0ZXhudXhrTm1JY0NYbEp6V1F3dTRYOXFHN3BKbnB5eWp3ZGhBOTBrZHJsdW5CMXBiaCtBTGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjE2OTgxCWZpbGU6Q3VlVGltZV8xLjAuNjBfeDY0LXNldHVwLmV4ZQpVbXFucTU3eHFBWWplaGlMQjE3SUpxN3NHQ25UZjF4SjVwOUNNVThHa3p0cDFrYVdHSmlMREpKSFR1cmozUlNqUk5Mbk5zV05kZy9sRVkrUGhwVEZDQT09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.60/CueTime_1.0.60_x64-setup.exe"
     }
   }
 }
