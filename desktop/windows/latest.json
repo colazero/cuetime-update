@@ -1,11 +1,11 @@
 {
-  "version": "1.0.60",
-  "notes": "1.0.60：PrintDocument 80mm 纸宽（修 A4 缩小居中）+ 纸宽可配置",
-  "pub_date": "2026-08-20T09:10:16.505Z",
+  "version": "1.0.61",
+  "notes": "1.0.61：修复纸宽选项类型 BUG + 临时文件清理",
+  "pub_date": "2026-08-20T09:21:39.352Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlI2OFl2Z0M4M08wRHBveVBsWDE0cDNwQXJIYTNEeTd0ZXhudXhrTm1JY0NYbEp6V1F3dTRYOXFHN3BKbnB5eWp3ZGhBOTBrZHJsdW5CMXBiaCtBTGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjE2OTgxCWZpbGU6Q3VlVGltZV8xLjAuNjBfeDY0LXNldHVwLmV4ZQpVbXFucTU3eHFBWWplaGlMQjE3SUpxN3NHQ25UZjF4SjVwOUNNVThHa3p0cDFrYVdHSmlMREpKSFR1cmozUlNqUk5Mbk5zV05kZy9sRVkrUGhwVEZDQT09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.60/CueTime_1.0.60_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlgwaFpXN1lhRFlFSVh1b3RBYStRTW85eVdnaVNSNDNGa2M1eExKdFJMdlNWM0xjYTZVYW5rSWI3bkxibzhqUklSMWFaOUVqb1NQMEdWWDgwVWVweVE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjE3NDk0CWZpbGU6Q3VlVGltZV8xLjAuNjFfeDY0LXNldHVwLmV4ZQpxRFNSOHR2Y1U5YmFZZ3QzbmJ6MGswU3ZUWnlJSUowVEI1T3FpZFBsWXYxbFU1ejBxQjBuSWJ5TENybHdmNnh6M1JmdUl5RnJ5TjhxK2FtUW1vZVJCZz09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.61/CueTime_1.0.61_x64-setup.exe"
     }
   }
 }
