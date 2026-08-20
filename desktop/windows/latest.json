@@ -1,1 +1,11 @@
-{"version":"1.0.56","notes":"perf: \u4f1a\u5458/\u62a5\u8868/\u79ef\u5206\u89c4\u5219/\u6253\u5370\u6027\u80fd\u57cb\u70b9\uff08performance_metrics \u8986\u76d6\u8865\u9f50\uff09","pub_date":"2026-08-20T00:23:22Z","platforms":{"windows-x86_64":{"signature":"dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmRpTnM4UlRPektuWVJyOUhmc1pyOVRpeFU4cElBYmNKdjRuM0lwdSt3MGtuUE9tOXN3YkZIdzFBQmVzZTVlUkVoV1ljV1YvZlhYOEZENTc1Nzk5aXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTg1MzgxCWZpbGU6Q3VlVGltZV8xLjAuNTZfeDY0LXNldHVwLmV4ZQpzV0VTREFJREEyNW5DaG54QUdSMUlLWmhhY1lXd1l6ZERUZDczYU9LMkw5WkYrQmlyU2VzYzgzc3BSc3BLQTlZOHQ2YnZ4aEc0eGJESndxY3NvNDdDZz09Cg==","url":"https://github.com/colazero/cuetime-update/releases/download/v1.0.56/CueTime_1.0.56_x64-setup.exe"}}}
+{
+  "version": "1.0.57",
+  "notes": "1.0.57：修复打印卡死/乱码/超长；手动重打静默实测通道",
+  "pub_date": "2026-08-20T08:22:19.455Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmQ1bUlySHVnZlBJOTdTa0F0MkUwS2l3Umc4N01WNGxwallZMmp2MStjNUlEbS9pUUNselphS2Y2b2tXWWlUWGJ6MnRsa0w2RXdhdnVZZ1pkYVdBSnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjE0MDE1CWZpbGU6Q3VlVGltZV8xLjAuNTdfeDY0LXNldHVwLmV4ZQpxd0VYSjhwNVVXYWNNVDlUNXJYSkwva09qeDdNeCtERVB3QVhmRTBpRnYvOVFaZGZVQ09naXExbzBpSnZscHJqWmJobG5XYmhvRFp5TGZ3VjhFY3RCZz09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.57/CueTime_1.0.57_x64-setup.exe"
+    }
+  }
+}
