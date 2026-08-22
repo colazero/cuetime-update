@@ -1,11 +1,11 @@
 {
+  "version": "1.0.65",
+  "notes": "1.0.65：结账到打印提速（打印提前到云端同步前，会员校验改单条查询）",
+  "pub_date": "2026-08-22T17:16:16.217Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmFTdkh1bThVeDlrdXR2RzFwcmdidkRDbW9BaDU3V3VVVk91cTBLeU95dFRtbzI1TTk1QkxNTG5ybXp6OHNQUzErSWlmNGVKZ2g5YlZqZ3RsRWlLNHdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjUxNjQzCWZpbGU6Q3VlVGltZV8xLjAuNjRfeDY0LXNldHVwLmV4ZQplRkM1NmxUUHVuWDZIemZkTUxpWHBjeVhzNEFlaFRWTlIwcWhpalJuM0EyVkowekNrMGdCY1dGVzJneno4d0EvUW5FOGNVdlhCMUk0MWpPeTVPZDhBQT09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.64/CueTime_1.0.64_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlM2Y1MreXRsZlBYaFRFRU9iYjRvTitXTDJ1WVd2ZStsRmtGQWVNU0tVNzBPVTg5Yk0yUW9VaWhGb1FsaEl5VXpzdHlRSGROcW1qVmhGazhpVmNnZXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NDE4Njc4CWZpbGU6Q3VlVGltZV8xLjAuNjVfeDY0LXNldHVwLmV4ZQpsSnNlTVAyZFN1ZmFNcHlLdlBJcWZtSmFMaGhjN2xML0NmRjJrakdjOUJ0WEp1OUhUZHRvZ2xkaCswbFh3OUgrUmJIQVYwUzBSWjRMNmZWR1BVR3hDZz09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.65/CueTime_1.0.65_x64-setup.exe"
     }
-  },
-  "pub_date": "2026-08-20T18:47:56.830Z",
-  "version": "1.0.64",
-  "notes": "1.0.64：SimHei 字体 + 11/8pt 字号 + 右缘净空"
+  }
 }
