@@ -1,11 +1,11 @@
-{
-  "version": "1.0.67",
-  "notes": "1.0.67：裸打后自动切纸（ESC/POS GS V 半切）",
-  "pub_date": "2026-08-22T17:51:18.208Z",
-  "platforms": {
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlpieVJuWG1xMXBiWDQyeEo4K1gyblYwRCtwelpkdi9tdHpGZ2Q1azV4Uzk1SGFnY2FIMlYva0pyNmppL0RENTFUdk9RSmZhcUFxN1NkK1NHU01OMWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NDIxMDY3CWZpbGU6Q3VlVGltZV8xLjAuNjdfeDY0LXNldHVwLmV4ZQpLWVVzQTRkc2pNaC8xS0syRHNYdUx0SU8ra0hJU1NvOGcyMG9PVjV6NGg1dFREZUJGb291TnBVZFA3V2RYbzdTU1NCeUlSbnViclVPY2tEV3drUGxDQT09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.67/CueTime_1.0.67_x64-setup.exe"
-    }
-  }
+﻿{
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlVEM0hBU25VM1RuQWVBSTVsQldRY0dCcEFOQVBDQ0hWdlRJUmVpdjlNMS9jdXErN0thTTV2SVJTMm1YVUE4ZVZSNzhNWWVhQ0JCdnZVTmRmQzlETXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NDU1ODgxCWZpbGU6Q3VlVGltZV8xLjAuNjhfeDY0LXNldHVwLmV4ZQpnWmkyUGp3RE05QUhJRjBCQzA0ZXNwb0N2eGE0K2hhTjRUNjhRcjI5MUpMb0M5Lzh2M09icjc0MGhUT0UxTDZpSm9KcDFDdnVHU3FETlp4aTRMczJBUT09Cg==",
+                                             "url":  "https://github.com/colazero/cuetime-update/releases/download/v1.0.68/CueTime_1.0.68_x64-setup.exe"
+                                         }
+                  },
+    "pub_date":  "2026-08-23T03:32:53.756Z",
+    "version":  "1.0.68",
+    "notes":  "1.0.68：UI 设计系统收敛（token 化/emoji→SVG）+ 收据折扣色语义化 + More 下拉菜单修复"
 }
