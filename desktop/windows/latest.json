@@ -1,11 +1,11 @@
-﻿{
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmVVZGtXTG1EelNoaW8rdDNKc1J2ZFlrVnJDaGxmQ1FYdHZjMU94bHE1OFNCSDZnTWljbDRzTjRYM0VmSFZ6U2V4a1htN3dzWXlTQit3Ym1GRUJlS3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NDU4NTcxCWZpbGU6Q3VlVGltZV8xLjAuNjlfeDY0LXNldHVwLmV4ZQpPZFhaZVBMczBTMklQaW9TVXBudWFXQVZmMmVVTDQ2Sk9rMXRhN1hsM2hRM3RoeWFnNG52d1RhYy9hWTdMeWRPbTNVOTRiL1lBdGcyRGg4WjhFdWZDUT09Cg==",
-                                             "url":  "https://github.com/colazero/cuetime-update/releases/download/v1.0.69/CueTime_1.0.69_x64-setup.exe"
-                                         }
-                  },
-    "pub_date":  "2026-08-23T04:18:21.554Z",
-    "version":  "1.0.69",
-    "notes":  "1.0.69：主色对比度达标 + 桌卡状态去 emoji + More 下拉菜单 SVG 图标"
+{
+    "platforms": {
+        "windows-x86_64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmJJVjFmU1NpSGhrZnVhVWNBQWNKSFNmS2RqcnYrdHJwM0kzVmwrMTJFdWhwN0JOQWM3K0NTVm0wYlV4MEI2YzhuRXkzbVJjY29JM2NoclZjMHRpNGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NTU4NzM0CWZpbGU6Q3VlVGltZV8xLjAuNzBfeDY0LXNldHVwLmV4ZQpLNHRiOUJJcWtxelp0UlRleHlDb0ZnZDNrOHM0WmVpcTBmN1htWHZqMi9OTmdVaExJTkpQUlVFOWltbUs4cC9rTTlwTTlLNVFIUVVLbTFGM0VpOUxDZz09Cg==",
+            "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.70/CueTime_1.0.70_x64-setup.exe"
+        }
+    },
+    "pub_date": "2026-08-24T08:06:11.410Z",
+    "version": "1.0.70",
+    "notes": "1.0.70：新增会话定时器——开台时或中途可设倒计时上限，到点响铃提醒并自动暂停，支持续时/转正常开台/结账三选一"
 }
