@@ -1,11 +1,11 @@
 {
     "platforms": {
         "windows-x86_64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlNpTlYvbGpBZjVBWUZwbEQxUjhrTHBsdlE0WE1VcFBjRW1EZUVRY2JYcGpBdWRvY2JPOTdPMEhxWUdTU3VIcmtwR0FZZFVNMWFRTnFUSFQzY3RQOFE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODUzMzM3CWZpbGU6Q3VlVGltZV8xLjAuNzJfeDY0LXNldHVwLmV4ZQpXRGs4NHl2Q3dQVGFZZlE2cU1CSWVac3AyNng1WC8wWSsxMkVUVlJLanZ5ZW41STNnSldwYzd3MHVIQmUxRS9XT21JYkF2endMRnJyRDJibndNMmtEdz09Cg==",
-            "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.72/CueTime_1.0.72_x64-setup.exe"
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmVOUjhDbHA3ZDVnNVFEZEFXMEp0REhYYm9teWRXN2lRbHZrcyt4OXFJVGs2VDhYa2NTdGZuMlJ1ZUQ1U1BFNTRtRmtyeTNsWW1Xa1AzNkdTbEMydndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODgwMDYzCWZpbGU6Q3VlVGltZV8xLjAuNzNfeDY0LXNldHVwLmV4ZQpZUE5JaDNtYnFhRkJNTlRqclYyRlJoM1VQaXF6R3pRMTlPOVdQcXJJTFVwTEhwVHljTUdvT2ltS2RVQU5RaWtIeVVUSkhmQmFQdUd2b3hmS1p1cEpCUT09Cg==",
+            "url": "https://github.com/colazero/cuetime-update/releases/download/v1.0.73/CueTime_1.0.73_x64-setup.exe"
         }
     },
-    "pub_date": "2026-08-27T17:55:44.663Z",
-    "version": "1.0.72",
-    "notes": "1.0.72：修复会话暂停时倒计时仍继续走的问题（暂停时倒计时冻结、恢复时顺延到期时刻）"
+    "pub_date": "2026-08-28T01:21:09.984Z",
+    "version": "1.0.73",
+    "notes": "1.0.73：定时器修复——Save后弹窗自动关闭；加时在原有剩余基础上累加（区分设定/加时/取消）"
 }
