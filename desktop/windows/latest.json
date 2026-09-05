@@ -1,11 +1,11 @@
 {
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmZOWVF5b1ZqbUNxUXMwWHRTNXdTVGxmWkZ1YWphdzV3b3BFbVYzS3EvNEcyMml2eERPT0lmaTZIcGxVZVpROWk3VzUrNEJidTZxRTZnOU1xTVppREF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3OTU4NTQ0CWZpbGU6Q3VlVGltZV8xLjAuNzVfeDY0LXNldHVwLmV4ZQprYmErT1JwbDU3WnpwaEdoYkVtSUNFenA3WHVxUGxFbGk2R0xuNXg3L3RnSVZUdG9sVlNpMWgxd3pzUFJ4ZmFidHRDa0JDNnhYUjBnSWNKVXk3VFhEUT09Cg==",
-                                             "url":  "https://github.com/colazero/cuetime-update/releases/download/v1.0.75/CueTime_1.0.75_x64-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlhGRnRHaGx6Sk5pd3QxQUppRjdjSEVoNkdYTy80ejV6enluZGI2ZkZSb0ZRNEc2MGp1UXI1T2pvSkdQQ3lDUXZlWjQ3STYxcDZvaG8veHZ0eWdGVXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NjEzODM4CWZpbGU6Q3VlVGltZV8xLjAuNzZfeDY0LXNldHVwLmV4ZQp6UWNVcndnL2lNSE0waWxSTUVQU1dvN0Fpc05SUldHdmtlckRrTVF5UHJ3K2RSQnFXaU1ib2phcTBEdVYreVdBd3lscXRNZGx4NXBNQlJGb3dvYXlDZz09Cg==",
+                                             "url":  "https://github.com/colazero/cuetime-update/releases/download/v1.0.76/CueTime_1.0.76_x64-setup.exe"
                                          }
                   },
     "pub_date":  "2026-08-28T23:09:40.434Z",
-    "version":  "1.0.75",
-    "notes":  "1.0.75：定时器修复——到期待决覆盖到期后手动暂停，死时间按实际暂停起点计算"
+    "version":  "1.0.76",
+    "notes":  "1.0.76: Android 台桌计费完善 — TableSessionRepository 对齐云端旧 schema（插入/结账兼容降级重试），OwnerScreen/TablesScreen 结账/计费显示修正"
 }
