@@ -1,11 +1,1 @@
-{
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlhGRnRHaGx6Sk5pd3QxQUppRjdjSEVoNkdYTy80ejV6enluZGI2ZkZSb0ZRNEc2MGp1UXI1T2pvSkdQQ3lDUXZlWjQ3STYxcDZvaG8veHZ0eWdGVXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NjEzODM4CWZpbGU6Q3VlVGltZV8xLjAuNzZfeDY0LXNldHVwLmV4ZQp6UWNVcndnL2lNSE0waWxSTUVQU1dvN0Fpc05SUldHdmtlckRrTVF5UHJ3K2RSQnFXaU1ib2phcTBEdVYreVdBd3lscXRNZGx4NXBNQlJGb3dvYXlDZz09Cg==",
-                                             "url":  "https://github.com/colazero/cuetime-update/releases/download/v1.0.76/CueTime_1.0.76_x64-setup.exe"
-                                         }
-                  },
-    "pub_date":  "2026-08-28T23:09:40.434Z",
-    "version":  "1.0.76",
-    "notes":  "1.0.76: Android 台桌计费完善 — TableSessionRepository 对齐云端旧 schema（插入/结账兼容降级重试），OwnerScreen/TablesScreen 结账/计费显示修正"
-}
+{"platforms":{"windows-x86_64":{"signature":"dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlJFUTE3ZC9PT2o4QXBvckpWMjQyUkQrdjN3TW5ONytTR3ZtdUh0QVp4Z1E4YmsvN2F2L3BCcUtQSXgzMGJiTjcwNkJuN1VjWTExd0k0Y1lyMW1NbkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODUxMTM2CWZpbGU6Q3VlVGltZV8xLjAuNzdfeDY0LXNldHVwLmV4ZQozWXVUdWZSV3ZpdzdHNnNvY1AzRXU3aDlFQkFrQ2lkYmZvSjZac1hyQ1dxeitMWk5rQmhEQVIzQ21RMHRKOEdOcC9OeTdFaEpaUWNuTk1UbC9DVFBEQT09Cg==","url":"https://github.com/colazero/cuetime-update/releases/download/v1.0.77/CueTime_1.0.77_x64-setup.exe"}},"pub_date":"2026-09-08T07:08:16.9492651Z","version":"1.0.77","notes":"1.0.77: 采购审批改为 Android 与桌端共享的原子事务；修复商品图片上传与审批失败提示。"}
