@@ -1,11 +1,11 @@
 {
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlY5RXh0VjFXdy9CYVoyYzZYdnVjVEoxMWJZOVhUWUUxbXhFY0xnb0Z0NEZhK1F4Q2Z2UndSd0luYWtZWGtzNHZnTlZGR3Z1eXE0UURmYmZwbUptclFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTY3NDI3CWZpbGU6Q3VlVGltZV8xLjEuM194NjQtc2V0dXAuZXhlClBJM2JpNU5hZGNJcXNaOXZiNDd0aGxRMHE4YVFiYzlzVVdwT2I3eTRxQlM4dFRySDJJT0M2cDQrS01FVm1uY3FNWDZpb2NmQlNnb0NtSG9QQXI2Y0RBPT0K",
-                                             "url":  "https://github.com/colazero/cuetime-update/releases/download/v1.1.3/CueTime_1.1.3_x64-setup.exe"
-                                         }
-                  },
-    "pub_date":  "2026-09-28T03:51:11Z",
-    "version":  "1.1.3",
-    "notes":  "1.1.3：修复实时订单确认与本地缓存协调中的竞态，避免过期响应覆盖已推进的云端订单状态；同时强化结账期间的订单可见性与备份权限校验。"
+    "platforms": {
+        "windows-x86_64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlEyVkhzYTJKSVcvTmp4SE9LZmIrYk43Zlpmakl3RjN0OUxaQW1DUytuOFZ1TXdESjFkdzc0ZVpuSjFxQmhUZkpCeHJRWTJjd09ocDQyemJ4Ri9xamdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjE4ODM1CWZpbGU6Q3VlVGltZV8xLjEuNF94NjQtc2V0dXAuZXhlCnVkOGxsZS9GSlBaVU9MamVTOGdCalZiZmxVMlFCcnljZkw5MlBnbmdjT0ROTExUQVRLUTNEQjBDQ3p4UVJCcHZMVlRUM3hoMm5XVmpXb3RmdGVSVENBPT0K",
+            "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.4/CueTime_1.1.4_x64-setup.exe"
+        }
+    },
+    "pub_date": "2026-09-28T18:07:49Z",
+    "version": "1.1.4",
+    "notes": "1.1.4：修复历史订单审计队列。1.1.1 之前产生的 order_action_logs 失败记录（PostgREST PGRST204：product_id 等事件字段被当作顶层列发送）现在会在启动时自动修复并重新入队一次——事件字段归入 payload、生成稳定 UUID 走 id 覆盖重放、写入经证明的 company/branch。 无法证明安全的记录保持 FAILED 并标记 manual_review：批量重试、批量清理与指定分店都不会改动它们，同步面板新增「需人工复核的审计记录」分区，展示原因与 payload 供线下处理。 新产生的审计事件带稳定 id，重放由插入改为 upsert，不再产生重复审计行。"
 }
