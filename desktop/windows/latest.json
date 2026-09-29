@@ -1,11 +1,11 @@
 {
-    "platforms": {
-        "windows-x86_64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlEyVkhzYTJKSVcvTmp4SE9LZmIrYk43Zlpmakl3RjN0OUxaQW1DUytuOFZ1TXdESjFkdzc0ZVpuSjFxQmhUZkpCeHJRWTJjd09ocDQyemJ4Ri9xamdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjE4ODM1CWZpbGU6Q3VlVGltZV8xLjEuNF94NjQtc2V0dXAuZXhlCnVkOGxsZS9GSlBaVU9MamVTOGdCalZiZmxVMlFCcnljZkw5MlBnbmdjT0ROTExUQVRLUTNEQjBDQ3p4UVJCcHZMVlRUM3hoMm5XVmpXb3RmdGVSVENBPT0K",
-            "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.4/CueTime_1.1.4_x64-setup.exe"
-        }
-    },
-    "pub_date": "2026-09-28T18:07:49Z",
-    "version": "1.1.4",
-    "notes": "1.1.4：修复历史订单审计队列。1.1.1 之前产生的 order_action_logs 失败记录（PostgREST PGRST204：product_id 等事件字段被当作顶层列发送）现在会在启动时自动修复并重新入队一次——事件字段归入 payload、生成稳定 UUID 走 id 覆盖重放、写入经证明的 company/branch。 无法证明安全的记录保持 FAILED 并标记 manual_review：批量重试、批量清理与指定分店都不会改动它们，同步面板新增「需人工复核的审计记录」分区，展示原因与 payload 供线下处理。 新产生的审计事件带稳定 id，重放由插入改为 upsert，不再产生重复审计行。"
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmRkOU81WVZyeW1KMS9LaHlOZVdBR21yOVhCVi9LUFJ1U296OC9tYUV1d0swZ3RkTjN0aEhYUHhTdzJLcmxXQUF5UDg4aENHZ0diK3M2cmptc1hEQkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzA1NTU5CWZpbGU6Q3VlVGltZV8xLjEuNV94NjQtc2V0dXAuZXhlClFYZmh1NFMxTldVWHp2aTBaMDJZWjVWVUNFcFhXSTk4WHNCd1ZoMmZMNk1VMjBiRkJRbktqZVdOOE1HdCtuWG43Z29XMW1KdUI3dXZqZUZpMEp4MkNRPT0K",
+                                             "url":  "https://github.com/colazero/cuetime-update/releases/download/v1.1.5/CueTime_1.1.5_x64-setup.exe"
+                                         }
+                  },
+    "pub_date":  "2026-09-29T18:12:39Z",
+    "version":  "1.1.5",
+    "notes":  "1.1.5：独立订单（外带/休息区）结账改为服务端原子事务。\n\n【结账原子化】以前桌端要自己分步做：逐笔插 payments、扣会员余额、写积分、再把订单改成 PAID。中途任何一步失败都会留下\"扣了钱但单没结\"或\"结了一半\"的烂账，积分也是客户端算的。现在这些都交给服务端的 checkout_standalone_order_v1（迁移 043）在一个事务里完成：校验付款合计必须等于服务端账单（不允许赊账）→ 原子扣余额并写流水和 payments → 按 points_rules 发积分（与台位结账同一套规则）→ 订单转 PAID 并冻结小票快照。付款方式不再信任客户端传入，积分/付款明细/付款后余额都由服务端落库后再回传给桌端。\n\n【重试不会重复扣款】每笔结账带一个幂等 id（存在本机），响应丢失后重按结账会拿回第一次的结果，不会重复扣款；即使中间交接了班次也仍返回第一次的账。客户端的旧逻辑已删除，结果不是服务端权威版本就一律拒绝渲染，绝不用本地金额补造小票。\n\n【离线行为变化】独立订单结账现在必须联网（否则直接提示），不再入离线队列。\n\n【报表归期口径】已付订单按结算时间（paid_at）归属日期，跨零点结账不再算到前一天；旧数据没有该字段时自动回退原时间戳。导出的 CSV 时间列同步修正。\n\n【灯控】新增 Modbus RTU 协议选项（从机地址固定 1，写线圈，设置里可切换，默认仍是海朗旧协议）。另外修正：设备不返回回执时不再当作指令失败——此前会出现\"灯已亮但弹报错、且自动关灯计时器不启动\"。\n\n⚠️ 部署顺序：桌端 1.1.5 依赖数据库迁移 db_migrations/043_atomic_standalone_order_checkout.sql。请在更新桌端之前先把 043 跑在该租户的 Supabase 上，否则独立订单结账会直接提示「需先部署迁移 043」。"
 }
