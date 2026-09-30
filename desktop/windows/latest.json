@@ -1,11 +1,1 @@
-{
-  "platforms": {
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlFGZkxPTnQxZytmWVZXT2ZMRjB0MnV4MGZlMEFRR2Z4V082bHN4YU1mMDY0dU5MYWVEdmJIVzkyWFR3RERtM2JjQnBUN3lVZHBjeVIwMzFnbFpVTEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzYxMjkyCWZpbGU6Q3VlVGltZV8xLjEuNl94NjQtc2V0dXAuZXhlCmdIRlNjdU13SmJjZkhnWHY0U2hPanUzaDc0aGdqdXZ0UU1WaGhDTmRubnd3cjA4Kzl3bXVvbFNRSXBYS3p1ajNxUjlkZWlPZGR1d0hEbGE4OUdWTEJ3PT0K",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.6/CueTime_1.1.6_x64-setup.exe"
-    }
-  },
-  "pub_date": "2026-09-30T09:43:59Z",
-  "version": "1.1.6",
-  "notes": "修复会员余额支付的独立订单未计入 Sales、Paid 订单重打未显示付款方式的问题，报表按结账快照统计折后实收。加强服务端付款金额与收据快照校验，金额必须精确到分匹配。灯控 COM、协议、启用状态、host、桌位映射及计时设置按公司和门店隔离；升级后每个使用灯控的公司/门店需首次重新保存设置。更新桌端前须先在 Supabase 执行 db_migrations/044_harden_standalone_checkout_exact_payment.sql（即使此前已执行 043）。"
-}
+{"version":"1.1.7","notes":"修复云端已付款的独立订单被旧隐藏标记挡在 Paid 列表之外的问题；无需新数据库迁移。","pub_date":"2026-09-30T10:20:40Z","platforms":{"windows-x86_64":{"signature":"dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlZxV3IvVE9zZ29sS0NwbHltbW5VSzlKSnpKMElreWlFMjRzejFVR25qeU5OKzVLWXVEb0E1WFMwVmJxWU1BazFVbWhkTTBnWW9yaGxPVm9MZ05NNVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzYzMzg5CWZpbGU6Q3VlVGltZV8xLjEuN194NjQtc2V0dXAuZXhlCmFkd0JpczlFbW5ZTEdldzQ3KzNnaXR0ZUZSUXZ3eklpMWM4UjRVWVV6dEhOUWpFQVlwSzZNc013UHJMQ05YWWV2ZFE4aG9BTzkwRW92aGV1cEN1VUFRPT0K","url":"https://github.com/colazero/cuetime-update/releases/download/v1.1.7/CueTime_1.1.7_x64-setup.exe"}}}
