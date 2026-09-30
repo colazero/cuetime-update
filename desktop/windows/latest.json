@@ -1,1 +1,11 @@
-{"version":"1.1.7","notes":"修复云端已付款的独立订单被旧隐藏标记挡在 Paid 列表之外的问题；无需新数据库迁移。","pub_date":"2026-09-30T10:20:40Z","platforms":{"windows-x86_64":{"signature":"dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlZxV3IvVE9zZ29sS0NwbHltbW5VSzlKSnpKMElreWlFMjRzejFVR25qeU5OKzVLWXVEb0E1WFMwVmJxWU1BazFVbWhkTTBnWW9yaGxPVm9MZ05NNVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzYzMzg5CWZpbGU6Q3VlVGltZV8xLjEuN194NjQtc2V0dXAuZXhlCmFkd0JpczlFbW5ZTEdldzQ3KzNnaXR0ZUZSUXZ3eklpMWM4UjRVWVV6dEhOUWpFQVlwSzZNc013UHJMQ05YWWV2ZFE4aG9BTzkwRW92aGV1cEN1VUFRPT0K","url":"https://github.com/colazero/cuetime-update/releases/download/v1.1.7/CueTime_1.1.7_x64-setup.exe"}}}
+{
+  "version": "1.1.8",
+  "notes": "修复会员报表阅读期间被后台刷新重置的问题，保留报告、日期范围、会员筛选和滚动位置；切换账号或门店时清理旧报告。无需新增数据库迁移。",
+  "pub_date": "2026-09-30T12:14:10Z",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.8/CueTime_1.1.8_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmM5bU9MSWkyL0xaNGNManpEQ0crbDFFTDhwMXI0VWk0aEF0dGFtUGQzSWJ1ZGV6VDFFN1lJcnFuTEZ3MlZwS2JkL1lrclBoczMxcjdsWWtIU2lWalFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzcwMzEwCWZpbGU6Q3VlVGltZV8xLjEuOF94NjQtc2V0dXAuZXhlCmxwcGZsS0RpbnpuTlZpUms3WXhkM041K0RhdXpkbjM0MFh2U3Z0VDNKSkF6UStkaGtielNESHRQL3JlN3h5SUlmWFoxUzdtK211T0FMVTN2cFA2UEFnPT0K"
+    }
+  }
+}
