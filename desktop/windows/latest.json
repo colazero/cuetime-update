@@ -1,11 +1,11 @@
 {
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmRkOU81WVZyeW1KMS9LaHlOZVdBR21yOVhCVi9LUFJ1U296OC9tYUV1d0swZ3RkTjN0aEhYUHhTdzJLcmxXQUF5UDg4aENHZ0diK3M2cmptc1hEQkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzA1NTU5CWZpbGU6Q3VlVGltZV8xLjEuNV94NjQtc2V0dXAuZXhlClFYZmh1NFMxTldVWHp2aTBaMDJZWjVWVUNFcFhXSTk4WHNCd1ZoMmZMNk1VMjBiRkJRbktqZVdOOE1HdCtuWG43Z29XMW1KdUI3dXZqZUZpMEp4MkNRPT0K",
-                                             "url":  "https://github.com/colazero/cuetime-update/releases/download/v1.1.5/CueTime_1.1.5_x64-setup.exe"
-                                         }
-                  },
-    "pub_date":  "2026-09-29T18:12:39Z",
-    "version":  "1.1.5",
-    "notes":  "1.1.5：独立订单（外带/休息区）结账改为服务端原子事务。\n\n【结账原子化】以前桌端要自己分步做：逐笔插 payments、扣会员余额、写积分、再把订单改成 PAID。中途任何一步失败都会留下\"扣了钱但单没结\"或\"结了一半\"的烂账，积分也是客户端算的。现在这些都交给服务端的 checkout_standalone_order_v1（迁移 043）在一个事务里完成：校验付款合计必须等于服务端账单（不允许赊账）→ 原子扣余额并写流水和 payments → 按 points_rules 发积分（与台位结账同一套规则）→ 订单转 PAID 并冻结小票快照。付款方式不再信任客户端传入，积分/付款明细/付款后余额都由服务端落库后再回传给桌端。\n\n【重试不会重复扣款】每笔结账带一个幂等 id（存在本机），响应丢失后重按结账会拿回第一次的结果，不会重复扣款；即使中间交接了班次也仍返回第一次的账。客户端的旧逻辑已删除，结果不是服务端权威版本就一律拒绝渲染，绝不用本地金额补造小票。\n\n【离线行为变化】独立订单结账现在必须联网（否则直接提示），不再入离线队列。\n\n【报表归期口径】已付订单按结算时间（paid_at）归属日期，跨零点结账不再算到前一天；旧数据没有该字段时自动回退原时间戳。导出的 CSV 时间列同步修正。\n\n【灯控】新增 Modbus RTU 协议选项（从机地址固定 1，写线圈，设置里可切换，默认仍是海朗旧协议）。另外修正：设备不返回回执时不再当作指令失败——此前会出现\"灯已亮但弹报错、且自动关灯计时器不启动\"。\n\n⚠️ 部署顺序：桌端 1.1.5 依赖数据库迁移 db_migrations/043_atomic_standalone_order_checkout.sql。请在更新桌端之前先把 043 跑在该租户的 Supabase 上，否则独立订单结账会直接提示「需先部署迁移 043」。"
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlFGZkxPTnQxZytmWVZXT2ZMRjB0MnV4MGZlMEFRR2Z4V082bHN4YU1mMDY0dU5MYWVEdmJIVzkyWFR3RERtM2JjQnBUN3lVZHBjeVIwMzFnbFpVTEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzYxMjkyCWZpbGU6Q3VlVGltZV8xLjEuNl94NjQtc2V0dXAuZXhlCmdIRlNjdU13SmJjZkhnWHY0U2hPanUzaDc0aGdqdXZ0UU1WaGhDTmRubnd3cjA4Kzl3bXVvbFNRSXBYS3p1ajNxUjlkZWlPZGR1d0hEbGE4OUdWTEJ3PT0K",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.6/CueTime_1.1.6_x64-setup.exe"
+    }
+  },
+  "pub_date": "2026-09-30T09:43:59Z",
+  "version": "1.1.6",
+  "notes": "修复会员余额支付的独立订单未计入 Sales、Paid 订单重打未显示付款方式的问题，报表按结账快照统计折后实收。加强服务端付款金额与收据快照校验，金额必须精确到分匹配。灯控 COM、协议、启用状态、host、桌位映射及计时设置按公司和门店隔离；升级后每个使用灯控的公司/门店需首次重新保存设置。更新桌端前须先在 Supabase 执行 db_migrations/044_harden_standalone_checkout_exact_payment.sql（即使此前已执行 043）。"
 }
