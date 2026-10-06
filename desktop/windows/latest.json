@@ -1,11 +1,11 @@
 {
-  "version": "1.1.8",
-  "notes": "修复会员报表阅读期间被后台刷新重置的问题，保留报告、日期范围、会员筛选和滚动位置；切换账号或门店时清理旧报告。无需新增数据库迁移。",
-  "pub_date": "2026-09-30T12:14:10Z",
+  "version": "1.1.9",
+  "notes": "桌台计时保持每秒更新，取消每秒完整重建桌台界面，减少重复挂载、数组复制和 DOM 重建。\n\n切出桌台页或退出登录时释放显示时钟；返回时按真实时间戳恢复时长、台费和倒计时。订单、会话等业务数据变化仍正常刷新。\n\n安装包也包含此前已提交的收据冻结快照保护和诊断日志去重限流加固。桌台优化无需额外数据库迁移；云端日志容量与保留期防护使用迁移 045，不在本次发布中变更数据库。\n\n验证：完整前端测试、TypeScript 检查、生产前端构建、113 项 Rust 测试通过（2 项原有测试忽略），桌台隔离浏览器验证 18 项通过。\n\n源码提交：0e2170dde3088f5edca83d3a71784aa4bdef3a5e。安装包从该提交的干净工作树构建。",
+  "pub_date": "2026-10-06T08:11:22.589Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.8/CueTime_1.1.8_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmM5bU9MSWkyL0xaNGNManpEQ0crbDFFTDhwMXI0VWk0aEF0dGFtUGQzSWJ1ZGV6VDFFN1lJcnFuTEZ3MlZwS2JkL1lrclBoczMxcjdsWWtIU2lWalFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzcwMzEwCWZpbGU6Q3VlVGltZV8xLjEuOF94NjQtc2V0dXAuZXhlCmxwcGZsS0RpbnpuTlZpUms3WXhkM041K0RhdXpkbjM0MFh2U3Z0VDNKSkF6UStkaGtielNESHRQL3JlN3h5SUlmWFoxUzdtK211T0FMVTN2cFA2UEFnPT0K"
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.9/CueTime_1.1.9_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmRZM01MR1JmZ214aHMxeUdSSlF3eEd4Nld0ajljaE5nZGxlZlZ6RWlaWFZuN2RiM293K3MwN25hbWRDODRvQ0pCTm9kRDFnRFRML3QxSFBwejFRekEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjc0MTgzCWZpbGU6Q3VlVGltZV8xLjEuOV94NjQtc2V0dXAuZXhlClJMS1NobHB6WGR0dUxwR3IwZVNnTTk3N2JKdjVvS25rWlYxbzJ1U2YxSEtvOWw1QWpyQ3FuWWFVTEtxN3Zla3lkTmFPekhyQmQ4akJhZnN6aUs0ZUFRPT0K"
     }
   }
 }
