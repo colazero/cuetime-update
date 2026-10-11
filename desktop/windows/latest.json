@@ -1,11 +1,11 @@
 {
-  "version": "1.1.9",
-  "notes": "桌台计时保持每秒更新，取消每秒完整重建桌台界面，减少重复挂载、数组复制和 DOM 重建。\n\n切出桌台页或退出登录时释放显示时钟；返回时按真实时间戳恢复时长、台费和倒计时。订单、会话等业务数据变化仍正常刷新。\n\n安装包也包含此前已提交的收据冻结快照保护和诊断日志去重限流加固。桌台优化无需额外数据库迁移；云端日志容量与保留期防护使用迁移 045，不在本次发布中变更数据库。\n\n验证：完整前端测试、TypeScript 检查、生产前端构建、113 项 Rust 测试通过（2 项原有测试忽略），桌台隔离浏览器验证 18 项通过。\n\n源码提交：0e2170dde3088f5edca83d3a71784aa4bdef3a5e。安装包从该提交的干净工作树构建。",
-  "pub_date": "2026-10-06T08:11:22.589Z",
+  "version": "1.1.10",
+  "notes": "CueTime 1.1.10 修复订单同步及多个页面的刷新竞态。\n\n- 全量读取与实时更新同时发生时，保留期间新增、修改及删除的数据，避免订单消失、状态回退或旧库存覆盖新库存。\n- 本地已确认的订单缓存接受其他收银端的合法账单更新；过期的撤单冲突保留供核对，停止自动重复提交。\n- 切换账号、门店或报表日期后，丢弃旧请求和旧订阅回调，防止显示或缓存旧范围的数据。\n- 会员实时更新、设置及库存核对的后台刷新保留搜索、未保存表单和展开状态。\n\n验证：完整前端回归、TypeScript 检查和生产构建通过；117 项 Rust 测试通过，2 项原有测试跳过；18 条浏览器 DOM 断言通过。\n\n源码提交：47cdeb0f4af38138ce2d4f1895ac91c55913c2f1。安装包从该提交的独立工作目录构建并签名。\n\n本版无需新增数据库迁移；店内安装后的实际睡眠恢复、打印及灯控仍需现场验证。\n\n安装包 SHA-256：`2f6b2fe1a03b20d38500ef4e59151dab5d35837efe26a022f8cef3918ec9d565`",
+  "pub_date": "2026-10-11T11:39:25.305Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.9/CueTime_1.1.9_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmRZM01MR1JmZ214aHMxeUdSSlF3eEd4Nld0ajljaE5nZGxlZlZ6RWlaWFZuN2RiM293K3MwN25hbWRDODRvQ0pCTm9kRDFnRFRML3QxSFBwejFRekEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjc0MTgzCWZpbGU6Q3VlVGltZV8xLjEuOV94NjQtc2V0dXAuZXhlClJMS1NobHB6WGR0dUxwR3IwZVNnTTk3N2JKdjVvS25rWlYxbzJ1U2YxSEtvOWw1QWpyQ3FuWWFVTEtxN3Zla3lkTmFPekhyQmQ4akJhZnN6aUs0ZUFRPT0K"
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.10/CueTime_1.1.10_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmJXaEFTTC9QSUY4S1RnRXYvSzJtRWJ2eVY1ZE5KN3FuUmQxYVJIbmJkRXQ5N0JCaDA2N2M5YXorS0pROXAvM3F1dysvQXZza0VFK0ZCK0IydjBBT1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzE4NTgxCWZpbGU6Q3VlVGltZV8xLjEuMTBfeDY0LXNldHVwLmV4ZQp4QjJzTEtuZW5yL3IzQStsN3BMVlNQUXZkTWZobkNUektmSGFLWUhDTm8zYWRvd0orWTBKbEJTNzRJK1ZQemxSbmoxL2RVdlJ3Y2E2N0lwZmdKam1DZz09Cg=="
     }
   }
 }
