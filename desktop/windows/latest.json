@@ -1,11 +1,11 @@
 {
-  "version": "1.1.13",
-  "notes": "CueTime 1.1.13\n\n- 修复付款选择在异步核单时丢失、可能被误作现金提交的问题；结账使用提交前冻结的付款明细。\n- 修复桌面结账确认未等待结果的问题；取消、Esc 或对话框打开失败均会停止本次提交。\n- 恢复多人分摊时现金金额编辑及多笔现金付款，修复班次已开启却提示 Start Shift 的缓存问题。\n- 历史订单绑定和重试改用应用内确认；审核、请求或刷新期间切店时停止旧流程并提示刷新，避免陈旧错误和界面更新。\n- Stop & Continue 缺少选款界面时安全停止，并补充付款、确认与切店场景的回归测试。",
-  "pub_date": "2026-10-18T01:52:06.017Z",
-  "platforms": {
-    "windows-x86_64": {
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.13/CueTime_1.1.13_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmE5dFNsbUplYWsrSm5OcUswYVA4dDdOQjU0RXdDZ0FBK0Rnbkg1dVcrUkN2S0diOXdUZ2xEQ3F3SDltaEQ2N3ZEeTc1VXhzRzRmQWQva1oxZmFuK3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjg4MzE5CWZpbGU6Q3VlVGltZV8xLjEuMTNfeDY0LXNldHVwLmV4ZQppZlNBRmJRemNQRERDVTVyZkpXTVNReUdQUHdvQU83RkxMZVdFbjdvQW9IcUFLV001aDZDRW9maTRtMFhyRUFjRmNsUUdiSEJCTGRHSWk5ZWd2WWlCZz09Cg=="
-    }
-  }
+    "version":  "1.1.14",
+    "notes":  "CueTime 1.1.14\n\n- 支付分摊：新增/移除付款人时按账单均分（RM30 → 10/10/10，余分给前几行），金额仍可手改；未被编辑时均分跟随账单变化（含跌到 RM0 再恢复）。\n- 现金找零：多笔现金合计超过应收时，溢余从最后现金行扣回作为找零；整条现金行用不上时归零并把它收到的现金并入最后一条正数现金行，保证确认页、提交给服务端的明细和云端冻结小票的实收/找零一致，且与行顺序无关。\n- 会员分摊：均分时会员余额行不会超过该会员余额，其余行分摊剩余；所有会员合计不足时保留上限、显示差额并禁用结账。\n- 无现金付款：非现金已覆盖账单或账单为 RM0 时，未使用的现金原样退回并单独提示，不计入实收/找零/付款记录；账单回升后保留的实收草稿继续使用。\n- 结账草稿：UI 提交收银员原始录入的付款草稿，由结账边界统一解析与校验，修复\"自动归零\"被误判为手工零、导致现金覆盖账单仍无法结账的问题。\n- 会员交易收据：充值/手工扣款打印操作当时捕获的余额/积分快照，待同步时标注\"预计余额\"；历史记录无快照时显示\"未记录\"，不再用当前余额顶替。\n- 新增现金结账全链路回归测试（UI 草稿 → 会话/独立订单 RPC → 046 现金规范化 → 中英文/58/80mm 收据）。",
+    "pub_date":  "2026-10-18T13:44:45.843Z",
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "url":  "https://github.com/colazero/cuetime-update/releases/download/v1.1.14/CueTime_1.1.14_x64-setup.exe",
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmNNZVJkNFE2cnd6bmpZbnJhWk5UL2VXTndZVmxYQWtRVlA1Z015aDVuclhQdnh5enEwNmxJdjN3RHNodmo4NllDVnpqMGh0R2tKay9jcmkySlUzWnd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzMxMDQyCWZpbGU6Q3VlVGltZV8xLjEuMTRfeDY0LXNldHVwLmV4ZQpBQmcvcnNUdFoyd25WVWcrZzh0RXNGUExRRWF4a2R2bWV1TlY4TTg1Q3p4ejZVYW9seWNWNkxXTHNVTHVud2x5RHQ4TlR4SGF1Y0FSQmNnei9jYThCQT09Cg=="
+                                         }
+                  }
 }
