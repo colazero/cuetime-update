@@ -1,11 +1,11 @@
 {
-  "version": "1.1.12",
-  "notes": "CueTime 1.1.12\n\n- 现金收款支持输入实收金额、刚好及 RM20/50/100 快捷金额，自动显示找零；与会员余额、刷卡等混合支付时，现金自动补足剩余应收。\n- 台费结账、结账并续开和独立订单统一使用找零逻辑。服务器校验实收并冻结找零，小票及重打保留原始收款数据。\n- 修复交接班未加载会员充值和手动扣款记录的问题，正确计入现金核对金额。\n- 修复组件类型错误，并将 TypeScript 与 Svelte 类型检查纳入生产构建，类型错误会阻止打包。\n\n前端完整回归、现金结账与幂等数据库回归、类型检查和生产构建通过。数据库 046 找零逻辑已核验。",
-  "pub_date": "2026-10-16T18:13:19.159Z",
+  "version": "1.1.13",
+  "notes": "CueTime 1.1.13\n\n- 修复付款选择在异步核单时丢失、可能被误作现金提交的问题；结账使用提交前冻结的付款明细。\n- 修复桌面结账确认未等待结果的问题；取消、Esc 或对话框打开失败均会停止本次提交。\n- 恢复多人分摊时现金金额编辑及多笔现金付款，修复班次已开启却提示 Start Shift 的缓存问题。\n- 历史订单绑定和重试改用应用内确认；审核、请求或刷新期间切店时停止旧流程并提示刷新，避免陈旧错误和界面更新。\n- Stop & Continue 缺少选款界面时安全停止，并补充付款、确认与切店场景的回归测试。",
+  "pub_date": "2026-10-18T01:52:06.017Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.12/CueTime_1.1.12_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlhETENzaVBkb3YvcW1NdVF2dm1LN1BpMUdjejVvdk01RENETWZ2dk1XeTFPbFlhTGlldUswcEdicXFzWjN6Qm05T0l6WnFYVytnaWcvUUoyaXY4eGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTc0MzkwCWZpbGU6Q3VlVGltZV8xLjEuMTJfeDY0LXNldHVwLmV4ZQorMVJ3OHdUVHpnakt2cjJ3K0svME5aaVFQZlNoelNnNDNONnh2OHdSUkg3c3IrZjUzV3FSVjhSdTFFSStuTHVYNVh2N3B6dTJaRVdXMGY4dDhSejhCZz09Cg=="
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.13/CueTime_1.1.13_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmE5dFNsbUplYWsrSm5OcUswYVA4dDdOQjU0RXdDZ0FBK0Rnbkg1dVcrUkN2S0diOXdUZ2xEQ3F3SDltaEQ2N3ZEeTc1VXhzRzRmQWQva1oxZmFuK3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjg4MzE5CWZpbGU6Q3VlVGltZV8xLjEuMTNfeDY0LXNldHVwLmV4ZQppZlNBRmJRemNQRERDVTVyZkpXTVNReUdQUHdvQU83RkxMZVdFbjdvQW9IcUFLV001aDZDRW9maTRtMFhyRUFjRmNsUUdiSEJCTGRHSWk5ZWd2WWlCZz09Cg=="
     }
   }
 }
