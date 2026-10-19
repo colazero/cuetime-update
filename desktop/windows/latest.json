@@ -1,11 +1,11 @@
 {
-    "version":  "1.1.15",
-    "notes":  "CueTime 1.1.15\n\n- 营业日：门店可设「营业日开始时间」（00:00–12:00，每半小时一档，迁移 047）。报表的今天/昨天/本周/本月都按营业日切，过了半夜的生意算前一天。另可选填营业时间，仅用于球台利用率统计（迁移 048）。\n- 报表重做：口径改为「净额 = 毛额 − 折扣 − 退款」；未结单、会员充值、会员余额消费分开单列；各支付方式之和与合计可对账。\n- 新增报表区块：球台经营（按台型：开台数、平均时长、台费、利用率、分时负载）、商品分类与预估毛利、异常（折扣 / 作废 / 退款 / 已接单后被拒 / 超过 30 分钟的暂停）。\n- 作废与退款：未出餐的商品员工可直接作废；已出餐需要店长授权码。退款只有店长或有权限的管理员能做，可按商品或按金额退、选择退回方式与是否放回库存。原因必填，操作人与授权人一并留痕。\n- 店长授权码（迁移 049）：4–8 位数字，服务端 bcrypt 校验，连错 5 次锁 10 分钟。\n- 结账：账单为 RM0 或无需付款时也会明确确认，不再静默跳过。\n- 订单：被编辑过的已付订单可从冻结小票恢复。\n- 修复：设置页「营业日开始时间」保存报 Cannot coerce the result to a single JSON object —— 门店在云端 public.branches 里没有记录时会自动补建该行（旧门店第一次保存即自愈），失败提示也改成了中英人话。\n- Android：桌台 / 店长 / 主页巧粉（chalk）换肤；结账面板在金额到达前显示加载态，避免按旧数字确认。",
-    "pub_date":  "2026-10-19T04:26:17.143Z",
+    "version":  "1.1.16",
+    "notes":  "CueTime 1.1.16\n\n- 作废已付账单（迁移 054）：把根本没做过生意的已付账单（演示台、测试单、开错台）整单作废——在 session / 订单 / 付款上标记 voided_at 并记入 bill_voids，订单状态与班次金额都不动。会员余额支付过的、或有退款还没撤销的会被拒绝。权限与授权码跟退款一致。\n- 撤销退款（迁移 054）：撤销还挂在当前开着的班次上、且不是退到会员余额的退款；班次的退款合计回退，放回库存的商品重新扣回。\n- 报表：作废单从它结账那天扣掉（台费、订单、付款），已撤销的退款不再抵扣；「异常」区列出作废账单与撤销的退款。\n- 日结打印与 CSV：打印带上净额 / 毛额 / 折扣 / 退款 / 付款对账 / 充值 / 未结 / 新增现金 / 球台 / 异常 / 已交班；CSV 保留原来的 18 列并在后面追加折扣、原因、授权人、付款方式、班次退款合计，并新增退款 / 作废 / 被拒 / 长时间暂停行（负数金额）。\n- 「已付款」可以按营业日从云端加载更早的单；已作废的账单灰显。\n- 安卓：经营页（Analytics 销售）按营业日与营业时间统计，含球台利用率、分时负载、毛利、异常、作废账单；订单列表隐藏作废单；登录 / 设置 / 开台 / 库存 / 更多 巧粉改版；supabase-kt 升级到 3.8。\n- 发版前请先执行迁移 053（订单 / 分页索引）与 054（作废账单 / 撤销退款）。未执行时作废功能会提示「数据库还没更新（需要执行迁移 054）」，其它功能不受影响。",
+    "pub_date":  "2026-10-19T17:58:16.975Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "url":  "https://github.com/colazero/cuetime-update/releases/download/v1.1.15/CueTime_1.1.15_x64-setup.exe",
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlNqNUtJNUdDQm14MERDc0cwZEFqcWNWRitoWlltdk9RM0pNallWVnN1NWZ5UHZIbWlBdWxUVGdQRldNZzJhUXAvYWpScURHcElUZWRxSFIvcDY3d2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzgzNTI3CWZpbGU6Q3VlVGltZV8xLjEuMTVfeDY0LXNldHVwLmV4ZQprbVhLNkZPN05KNmR2eWJtdmJ1WlNPOFFPM2xxL3VGYTlFYnNQT0NSZjhOczcwdDdVTSs3TER6YnNuSmlYSHhwb1BKejd6aG9QYnpWRklEaUNoYWhDZz09Cg=="
+                                             "url":  "https://github.com/colazero/cuetime-update/releases/download/v1.1.16/CueTime_1.1.16_x64-setup.exe",
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlVteUtCM2dZMmtrZkVJbmNXc3g0c0xCZXFxNXNvUERGSGdVK1IxZzc0QjdKTHpMYkZocEVIZnpSQ3RBUndkNnZIay9Nd0pPbCs3UHBCM05nTUJleFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDMyNjQ1CWZpbGU6Q3VlVGltZV8xLjEuMTZfeDY0LXNldHVwLmV4ZQorSEtwTklzYWZWZHhLb25vaXc2Sm9nUlVueWhPa2NKSVRnNmVOOTI3L25HVjZqYXNVSTlNSDBEa2ZrdTZ5ZFp0TDlqVUxuSjJLdGtGWmFmMklOazhDUT09Cg=="
                                          }
                   }
 }
