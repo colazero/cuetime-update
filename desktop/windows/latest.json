@@ -1,11 +1,11 @@
 {
-    "version":  "1.1.16",
-    "notes":  "CueTime 1.1.16\n\n- 作废已付账单（迁移 054）：把根本没做过生意的已付账单（演示台、测试单、开错台）整单作废——在 session / 订单 / 付款上标记 voided_at 并记入 bill_voids，订单状态与班次金额都不动。会员余额支付过的、或有退款还没撤销的会被拒绝。权限与授权码跟退款一致。\n- 撤销退款（迁移 054）：撤销还挂在当前开着的班次上、且不是退到会员余额的退款；班次的退款合计回退，放回库存的商品重新扣回。\n- 报表：作废单从它结账那天扣掉（台费、订单、付款），已撤销的退款不再抵扣；「异常」区列出作废账单与撤销的退款。\n- 日结打印与 CSV：打印带上净额 / 毛额 / 折扣 / 退款 / 付款对账 / 充值 / 未结 / 新增现金 / 球台 / 异常 / 已交班；CSV 保留原来的 18 列并在后面追加折扣、原因、授权人、付款方式、班次退款合计，并新增退款 / 作废 / 被拒 / 长时间暂停行（负数金额）。\n- 「已付款」可以按营业日从云端加载更早的单；已作废的账单灰显。\n- 安卓：经营页（Analytics 销售）按营业日与营业时间统计，含球台利用率、分时负载、毛利、异常、作废账单；订单列表隐藏作废单；登录 / 设置 / 开台 / 库存 / 更多 巧粉改版；supabase-kt 升级到 3.8。\n- 发版前请先执行迁移 053（订单 / 分页索引）与 054（作废账单 / 撤销退款）。未执行时作废功能会提示「数据库还没更新（需要执行迁移 054）」，其它功能不受影响。",
-    "pub_date":  "2026-10-19T17:58:16.975Z",
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "url":  "https://github.com/colazero/cuetime-update/releases/download/v1.1.16/CueTime_1.1.16_x64-setup.exe",
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlVteUtCM2dZMmtrZkVJbmNXc3g0c0xCZXFxNXNvUERGSGdVK1IxZzc0QjdKTHpMYkZocEVIZnpSQ3RBUndkNnZIay9Nd0pPbCs3UHBCM05nTUJleFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDMyNjQ1CWZpbGU6Q3VlVGltZV8xLjEuMTZfeDY0LXNldHVwLmV4ZQorSEtwTklzYWZWZHhLb25vaXc2Sm9nUlVueWhPa2NKSVRnNmVOOTI3L25HVjZqYXNVSTlNSDBEa2ZrdTZ5ZFp0TDlqVUxuSjJLdGtGWmFmMklOazhDUT09Cg=="
-                                         }
-                  }
+  "version": "1.1.17",
+  "notes": "CueTime 1.1.17\n\n- 修复报表「异常」区把已结账的台显示成「还在暂停」：已结账的暂停现在截止到结账时间，不再按当前时间一直累计；真正在暂停的台仍显示「还在暂停」，恢复过或确实超过 30 分钟的暂停记录照常保留。\n- 作废已付账单可以勾选「商品放回库存」（迁移 055）：当初扣过库存的商品整份加回，商品已被删除的会提示并跳过，作废后该单不再占用库存。\n- 班次：本班交班前作废的账单不再算进本班销售额与收款方式合计，班次弹窗、交班打印和日结列表单独列一行「已作废、不计入」；已交班的班次历史不变。\n- 发版前请先执行迁移 055（作废放回库存）。未执行时作废账单会提示「数据库还没更新（需要执行迁移 055）」，其它功能不受影响。",
+  "pub_date": "2026-10-20T03:41:09.082Z",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.17/CueTime_1.1.17_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlE3eVpscVJxczNnWXBDdGN4azFmclFkS1RVUyt5SmJiendpTzNtMHdORERWTkQ3RWh1bFlhc0l6Q08wdHBuR1hDY3cwbHpUUWpzNHQwc0hyTzBlREFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDY3NjYwCWZpbGU6Q3VlVGltZV8xLjEuMTdfeDY0LXNldHVwLmV4ZQpzazQwdjZCeGM3SitBenlEbHF0YXE2azVjMVg2SjE4MmM5TzdaWXNwQVZzM3pjaFM1Yi9WM0lEYlJhaTVLOWtmU3g2WlBaM09PMHIveXNVK0NaSkxEdz09Cg=="
+    }
+  }
 }
