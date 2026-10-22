@@ -1,11 +1,11 @@
 {
-    "version":  "1.1.19",
-    "notes":  "CueTime 1.1.19\n\n- 巧粉（chalk）桌面界面：外壳、登录、桌台总览、结账页整体换装（含内嵌字体，离线也不掉字）。\n- 巧粉订单页：待接单 / 制作中 / 已完成 / 历史 分页，作废与退款弹窗重新排版，卡片右键菜单。\n- 巧粉班次弹窗与报表页；报表期间筛选、深色主卡与涨跌提示、球台利用率条、异常高亮。\n- 巧粉审批 / 盘点 / 库存 / 会员 / 入库五个页面；原有「简约」版界面仍可在设置里切回。\n- 结账金额取整修复：折扣后的台费落在半分上时（例如 RM55.94 打 75 折 = 41.955），画面按 RM41.95 收，校验却按 41.96 算，会误报「支付分拆金额与应收不符」导致结不了账；现在两边统一先取到分。\n- 安卓端同步发布 1.1.17（应用内更新通道）：外带 / 休息区订单可在安卓收银台结账（现金 / 转账 / 扫码 / 刷卡、自动找零、可打印）、订单页巧粉改版、换台改为底部选台面板、经营 / 报表改版。",
-    "pub_date":  "2026-10-21T17:14:08.722Z",
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "url":  "https://github.com/colazero/cuetime-update/releases/download/v1.1.19/CueTime_1.1.19_x64-setup.exe",
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlZpYnNwZ1BObkE0OTB1NDZ3UFRQWDlpVVZsQlo5b05uQnhjNm9pYytNb21OUzI2MUswNnZPNFRyVEFYbWVmMmRTYXZ3SkUvNkJtQmN6a1hINjhKelFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjAyODE0CWZpbGU6Q3VlVGltZV8xLjEuMTlfeDY0LXNldHVwLmV4ZQp0N0RENTRoTXFhNXFQOUxHblRWWTRkNUNxWFRkSVNycWl6YkV4ZlpXVVlTUE13VjlCU3Z6NDIycEgzYm1qZXQzK2NMNFZlSHVjMFpoaER1MFg3Z2tBUT09Cg=="
-                                         }
-                  }
+  "version": "1.1.20",
+  "notes": "CueTime 1.1.20\n\n- 修复台费结账偶发「金额对不上」（payment_total_mismatch）导致结不了账：折扣后的台费落在半分上时（例如 RM55.65 打 7 折 = 38.955，再加 RM3.00 商品，应收 41.95），送云端的台费仍是 38.955，云端按分四舍五入成 38.96，账单变成 41.96，和实收 41.95 差 1 分被拒。现在送云端的台费、折扣与应收都先取到分（38.95 / 16.70），三边完全一致。\n- 不打折但台费本身落在半分上的情况（例如按分钟算出的 21/60 × N）同样修正。\n- 回归测试改成同时模拟云端校验（迁移 030 + 046），覆盖打折与不打折共约 10 万组组合。",
+  "pub_date": "2026-10-22T04:42:20.236Z",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.20/CueTime_1.1.20_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYllHZ2dnVUFqMStQKzduckF2Zkt5RzVpZ3dWTFovdUJKSXVVRER6cGhxRU9EVlMzZW5DeWpEUzE2TlM2N3lvRm5leHpiTElWTk5BVGxERm5HR2JmVlFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjQ0MTIxCWZpbGU6Q3VlVGltZV8xLjEuMjBfeDY0LXNldHVwLmV4ZQpvcEhsSWRVMTFYdVVnbWN2dzFJdUsvSldaOG5LcXQxUGZBckZDNExqRldCampacGdDRVNRUkVQTlJtTUdQUnQvMCtNRzNudzd2NGQ4c1I4Vmx2QVpEdz09Cg=="
+    }
+  }
 }
