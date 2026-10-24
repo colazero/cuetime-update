@@ -1,11 +1,11 @@
 {
-  "version": "1.1.20",
-  "notes": "CueTime 1.1.20\n\n- 修复台费结账偶发「金额对不上」（payment_total_mismatch）导致结不了账：折扣后的台费落在半分上时（例如 RM55.65 打 7 折 = 38.955，再加 RM3.00 商品，应收 41.95），送云端的台费仍是 38.955，云端按分四舍五入成 38.96，账单变成 41.96，和实收 41.95 差 1 分被拒。现在送云端的台费、折扣与应收都先取到分（38.95 / 16.70），三边完全一致。\n- 不打折但台费本身落在半分上的情况（例如按分钟算出的 21/60 × N）同样修正。\n- 回归测试改成同时模拟云端校验（迁移 030 + 046），覆盖打折与不打折共约 10 万组组合。",
-  "pub_date": "2026-10-22T04:42:20.236Z",
+  "version": "1.1.21",
+  "notes": "CueTime 1.1.21\n\n- 巧粉设置页：从弹窗改成整页式大面板，分组更清楚；保存后停留在原来那一组，不再跳回第一组。\n- 巧粉团队与权限页：成员列表、角色与调店操作按新布局排布。\n- 巧粉会员报表页：加载 / 无数据状态补齐，与其它巧粉页面风格一致。\n- 会员列表：超过一屏时可以正常滚动，不再把后面的会员裁掉。",
+  "pub_date": "2026-10-24T18:09:18.329Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.20/CueTime_1.1.20_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYllHZ2dnVUFqMStQKzduckF2Zkt5RzVpZ3dWTFovdUJKSXVVRER6cGhxRU9EVlMzZW5DeWpEUzE2TlM2N3lvRm5leHpiTElWTk5BVGxERm5HR2JmVlFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjQ0MTIxCWZpbGU6Q3VlVGltZV8xLjEuMjBfeDY0LXNldHVwLmV4ZQpvcEhsSWRVMTFYdVVnbWN2dzFJdUsvSldaOG5LcXQxUGZBckZDNExqRldCampacGdDRVNRUkVQTlJtTUdQUnQvMCtNRzNudzd2NGQ4c1I4Vmx2QVpEdz09Cg=="
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.21/CueTime_1.1.21_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmRLMzJqcjlMdTVsdU5JREtVMGlUdHhZQkt4MWZQdU81S216d2wyeEFjR2x1aStYZTc2ejdSRUJuTDlTYi9XMWdlRVlDS3ViZzBrT1FPN0p0azZzcXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODY1MzM4CWZpbGU6Q3VlVGltZV8xLjEuMjFfeDY0LXNldHVwLmV4ZQpwTTZvN25VSGI5LzhNV2FEdGVMRTRTNTJCY2gwZEY2bHY3UmFHU1kzTXc2TVhiVzMwUEFPR0ZvNUN3VVBXaDVZOG5wcVg0bnZkM2JTY2R6NHBHNGhDdz09Cg=="
     }
   }
 }
