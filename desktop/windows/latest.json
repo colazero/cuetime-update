@@ -1,11 +1,11 @@
 {
-  "version": "1.1.21",
-  "notes": "CueTime 1.1.21\n\n- 巧粉设置页：从弹窗改成整页式大面板，分组更清楚；保存后停留在原来那一组，不再跳回第一组。\n- 巧粉团队与权限页：成员列表、角色与调店操作按新布局排布。\n- 巧粉会员报表页：加载 / 无数据状态补齐，与其它巧粉页面风格一致。\n- 会员列表：超过一屏时可以正常滚动，不再把后面的会员裁掉。",
-  "pub_date": "2026-10-24T18:09:18.329Z",
+  "version": "1.1.22",
+  "notes": "CueTime 1.1.22\n\n- 报表加载提速：本地订单 / 场次 / 班次改为并发读取；云端各查询（订单、场次、班次、作废账单、付款、充值、退款、作废与拒单日志、会员消费榜）连同 outbox 统计一次性并发发出。报表的等待时间从「所有查询相加」变成「最慢的那一个」，历史数据多的门店提升明显。\n- 口径与数字完全不变：作废账单剔除、付款方式汇总等仍在全部数据到齐后统一计算。",
+  "pub_date": "2026-10-28T14:59:54.823Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.21/CueTime_1.1.21_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmRLMzJqcjlMdTVsdU5JREtVMGlUdHhZQkt4MWZQdU81S216d2wyeEFjR2x1aStYZTc2ejdSRUJuTDlTYi9XMWdlRVlDS3ViZzBrT1FPN0p0azZzcXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODY1MzM4CWZpbGU6Q3VlVGltZV8xLjEuMjFfeDY0LXNldHVwLmV4ZQpwTTZvN25VSGI5LzhNV2FEdGVMRTRTNTJCY2gwZEY2bHY3UmFHU1kzTXc2TVhiVzMwUEFPR0ZvNUN3VVBXaDVZOG5wcVg0bnZkM2JTY2R6NHBHNGhDdz09Cg=="
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.22/CueTime_1.1.22_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlJzOVNsSWxSSEpuOUNWNSt3aEVEQmFKUHlYRXYrUWE0TGw0YU1XSWNaeGsrdVVVRjZtRFpua1l5Ykh1Nkc3NjlKUER1QzAzOWt6Qk8ra01ZNUsrTGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTk5NTc4CWZpbGU6Q3VlVGltZV8xLjEuMjJfeDY0LXNldHVwLmV4ZQpwV2NYa2hpRlNuMVRvSlRiUHBENmJTaUlZMXl2UDRvdFdRMVdnUUh5Mk5TUVFRTzdpK1NxUWRVUFdnSkhzN2tuZTROQjdWRWZMRk5GbGkvQytsZU9Ddz09Cg=="
     }
   }
 }
