@@ -1,11 +1,11 @@
 {
-  "version": "1.1.23",
-  "notes": "CueTime 1.1.23\n\n- 库存与流水：新增服务端库存流水，接单、预留、撤回、拒单、采购、作废、退款、盘点、资料修改和商品删除都会在同一事务里记录，含操作人与前后数量；库存页可直接查看商品流水，区分历史记录。\n- 库存调整独立成入口：商品资料编辑不再改写库存；库存页新增「调整库存」，可填增减数量或实盘数量并必须填写原因，服务端校验公司/门店与 edit_stock 权限；实盘会校验库存版本，盘点期间发生销售就拒绝旧计数。\n- 修复：以前编辑商品资料会把表单里的库存写回云端，覆盖同时发生的销售，导致库存虚增或虚减；现在资料更新只改资料，库存只能通过独立调整改动。\n- 桌面同步：离线重放的商品新增不再回写库存；旧版遗留的裸库存同步任务会保留在本机并标记原因，老板可在同步面板逐条核对后结束任务，不会重复扣减或增加库存。\n- 旧版客户端（安卓、桌面）在商品表单里改库存会被服务端拒绝，请尽快升级所有终端。",
-  "pub_date": "2026-10-31T10:58:41.847Z",
+  "version": "1.1.24",
+  "notes": "修复已出餐订单整单作废后仍显示在桌台明细的问题。",
+  "pub_date": "2026-11-19T08:15:32Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.23/CueTime_1.1.23_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmRwQVVNMkRnc1RzR1hycFd2bndIaTk5ZFNhQk9HU3F5Sy80VEVEbUoyOS9yYm1LVGNSeHN4clcwb2dMTkpuUm1vOUszeEUxTHgxblNkVUVUVVZuRUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDQ0MTU2CWZpbGU6Q3VlVGltZV8xLjEuMjNfeDY0LXNldHVwLmV4ZQpkVmZhSDJxN3FTVXowZ2ZQSGM1bVRuNkJrK3JBeDJONW9FWmpQdnhPVit1cy9EUHorVmdtSzA2VjAxUjY0YklxcU81YjZaK3VnL245empqM1JmNS9EUT09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmQ0TzNpcnRpb2tPejlWSTFjcUNZRGE2T2lzVjNSWmowN1A4ZXptZEttbDd4WnQ5T3dYNlMveDI0OGFMcTBPVTV5MGlXbXFINjYvR0VSSWlMZFF4WGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDc2MDc4CWZpbGU6Q3VlVGltZV8xLjEuMjRfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMS4yNAorSGp4eFpUb2pwY2JFR05zQ1ZKWWljbDB5Njc1Q2Zmd2ZBTDZISFpadkNMVEI0MmpqZkhkNzlGcmhRTDVXVVNQV2FkUnhoWU0rbTl5Z2pXcGx6Q0NCZz09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.24/CueTime_1.1.24_x64-setup.exe"
     }
   }
 }
