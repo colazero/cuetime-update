@@ -1,11 +1,11 @@
 {
-  "version": "1.1.24",
-  "notes": "修复已出餐订单整单作废后仍显示在桌台明细的问题。",
-  "pub_date": "2026-11-19T08:15:32Z",
+  "version": "1.1.25",
+  "notes": "修复一台设备结账后，另一台设备因计时到期将桌台改回暂停并隐藏账单的问题。\n新增采购单识别入库草稿和门店补货建议。",
+  "pub_date": "2026-11-20T08:54:57Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYmQ0TzNpcnRpb2tPejlWSTFjcUNZRGE2T2lzVjNSWmowN1A4ZXptZEttbDd4WnQ5T3dYNlMveDI0OGFMcTBPVTV5MGlXbXFINjYvR0VSSWlMZFF4WGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDc2MDc4CWZpbGU6Q3VlVGltZV8xLjEuMjRfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMS4yNAorSGp4eFpUb2pwY2JFR05zQ1ZKWWljbDB5Njc1Q2Zmd2ZBTDZISFpadkNMVEI0MmpqZkhkNzlGcmhRTDVXVVNQV2FkUnhoWU0rbTl5Z2pXcGx6Q0NCZz09Cg==",
-      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.24/CueTime_1.1.24_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaUJldDBTWnlPYlRVTFB4TmdmTmNoeTl1dmkrU2N5VW4zNlBzMW5HWS9rYjNGd0F5b09OZXlPRWdHdnhLMUxSZzBQMHZVZ2IveVpKUG9GUGVNbG5jMU0yUVd4L0d0b0FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTY0ODY2CWZpbGU6Q3VlVGltZV8xLjEuMjVfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMS4yNQp2bWVJWmg5U2YvOTFTM3JsbWg5VTdOZy9GMzlhY3JRak0xdUlvRVRRc1pOT25hcldtOUZCemxybEV3VkVDQUN6UXRteGYra2xqWHJNZWMzSXFOQWNDdz09Cg==",
+      "url": "https://github.com/colazero/cuetime-update/releases/download/v1.1.25/CueTime_1.1.25_x64-setup.exe"
     }
   }
 }
